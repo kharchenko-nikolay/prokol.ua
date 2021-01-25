@@ -1,5 +1,5 @@
 
-/* ========================== СТИЛИ ДЛЯ ШАПКИ САЙТА==========================*/
+/* ========================== ОБЩИЕ СТИЛИ ==========================*/
 
 /* загрузка шрифта из файла */
 @font-face {
@@ -16,6 +16,40 @@ body{
     margin: 0;
     padding: 0;
 }
+
+div.block-separator{
+    height: 100px;
+    background-color: #f6daa8;
+    background-image: url("../images/pipe.png");
+}
+
+main{
+    position: relative;
+}
+
+div.pipe-vertical-left{
+    position: absolute;
+    background-image: url("../images/pipe-vertical.png");
+    height: 100%;
+    width: 100px;
+}
+
+div.pipe-vertical-right {
+    position: absolute;
+    background-image: url("../images/pipe-vertical.png");
+    height: 100%;
+    width: 100px;
+    right: 0;
+    transform: scale(-1, -1);
+}
+
+section{
+    width: 100%;
+    background-color: #f6daa8;
+    padding: 40px 0;
+}
+
+/* ========================== СТИЛИ ДЛЯ ШАПКИ САЙТА==========================*/
 
 header{
     position: relative;
@@ -144,17 +178,11 @@ ul.menu{
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА ВИДЫ ВЫПОЛНЯЕМЫХ РАБОТ ==========================*/
 
-.container-center{
+div.container-center{
     width: 85%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
-}
-
-section.types-works{
-    width: 100%;
-    background-color: #f6daa8;
-    padding: 40px 0;
 }
 
 .container-center > h2{
@@ -213,9 +241,6 @@ a.detail{
 section.advantages{
 
 }
-
-
-
 
 footer{
     height: 100px;

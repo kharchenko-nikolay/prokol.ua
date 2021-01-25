@@ -1,7 +1,9 @@
 <?php require_once 'public/include/header.php'; ?>
 
 <main>
-    <section class="types-works">
+    <div class="pipe-vertical-left"></div>
+    <div class="pipe-vertical-right"></div>
+    <section>
         <div class="container-center">
             <h2>Виды выполняемых работ</h2>
             <div class="flex-container">
@@ -45,8 +47,14 @@
             <a href="" class="detail">Подробнее</a>
         </div>
     </section>
-    <section class="advantages">
+    <div class="block-separator"></div>
+    <section>
+        <div class="container-center">
+            <h2>Наши преимущества</h2>
+            <div class="flex-container">
 
+            </div>
+        </div>
     </section>
 </main>
 
