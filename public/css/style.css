@@ -17,7 +17,7 @@ body{
     padding: 0;
 }
 
-div.block-separator{
+div.separator{
     height: 100px;
     background-color: #f6daa8;
     background-image: url("../images/pipe.png");
@@ -252,6 +252,11 @@ div.wrapper-advantage{
 
 img[alt="качество работ"], img[alt="работа под ключ"]{
     width: 65%;
+}
+
+.wrapper-advantage > p{
+    font-family: Cuprum, sans-serif;
+    font-size: 24px;
 }
 
 

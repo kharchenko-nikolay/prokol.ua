@@ -47,39 +47,56 @@
             <a href="" class="detail">Подробнее</a>
         </div>
     </section>
-    <div class="block-separator"></div>
+    <div class="separator"></div>
     <section>
         <div class="container-center">
             <h2>Наши преимущества</h2>
             <div class="flex-container">
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/quality.png" alt="качество работ">
-                    <p>Качество работ</p>
+                    <p>
+                        <b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале
+                    </p>
                 </div>
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/terms.png" alt="">
-                    <p>Сроки выполнения</p>
+                    <p>
+                        <b>Сроки выполнения</b><br>работу стараемся выполнять по максимуму<br>
+                        быстро, обычно это 1 - 2 дня
+                    </p>
                 </div>
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/warranty.png" alt="">
-                    <p>Гарантия</p>
+                    <p>
+                        <b>Гарантия выполненной работы</b><br>мы никуда не пропадаем, в случае утечки приезжаем делаем
+                    </p>
                 </div>
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/master.png" alt="">
-                    <p>Выезд мастера бесплатный</p>
+                    <p>
+                        <b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно
+                    </p>
                 </div>
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/delivery.png" alt="">
-                    <p>Закупка материала бесплатно</p>
+                    <p>
+                        <b>Доставка материала бесплатно</b><br>материал к объекту доставляем на своем авто бесплатно
+                    </p>
                 </div>
                 <div class="wrapper-advantage">
                     <img src="public/images/photos-of-works/key.png" alt="работа под ключ">
-                    <p>Выполнение работы под ключ</p>
+                    <p>
+                        <b>Выполненяем работу под ключ</b><br>
+                        прокладываем трубы, подключаемся, ставим под давление проверяем
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <div class="block-separator"></div>
+    <div class="separator"></div>
+    <section>
+
+    </section>
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
