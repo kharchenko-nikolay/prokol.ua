@@ -45,7 +45,6 @@ div.pipe-vertical-right {
 
 section{
     width: 100%;
-    /*background-color: #f6daa8;*/
     padding: 40px 0;
     background: linear-gradient(#f6daa8, #fffbf3);
 }
@@ -184,6 +183,7 @@ div.container-center{
     height: 100%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .container-center > h2{
@@ -250,7 +250,7 @@ div.wrapper-advantage{
     object-fit: fill;
 }
 
-img[alt="качество работ"], img[alt="работа под ключ"]{
+img[alt="Качество работ"], img[alt="Работа под ключ"]{
     width: 65%;
 }
 
@@ -259,6 +259,57 @@ img[alt="качество работ"], img[alt="работа под ключ"]{
     font-size: 24px;
 }
 
+/* ========================== СТИЛИ ДЛЯ БЛОКА ВЫПОЛНЕННЫЕ РАБОТЫ ==========================*/
+
+div.carousel{
+    transition: all 1s ease-out;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel > img{
+    object-fit: cover;
+    width: 70%;
+    height: 600px;
+    animation-name: carousel;
+    animation-duration: 0.5s;
+}
+
+@keyframes carousel {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+
+img.arrow-left{
+    position: absolute;
+    width: 10%;
+    left: 0;
+    top: 35%;
+    transform: scale(-1,-1);
+}
+
+img.arrow-right{
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 35%;
+}
+
+.transition{
+    transition-property: width;
+    transition-duration: .1s;
+}
+
+.arrow-left:active,
+.arrow-right:active{
+    border-radius: 100%;
+    box-shadow: 0 0 10px black;
+    width: 9.7%;
+}
 
 
 
