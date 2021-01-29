@@ -20,15 +20,15 @@
         <address style="color: #3b3b3b;">г. Днепр</address>
         <div class="phone" style="margin-top: 5px;">
             <img src="public/images/telecom-operators/lifecell.png" alt="Лайф">
-            <span>063 636 42 60</span>
+            <span title="life">063 636 42 60</span>
         </div>
         <div class="phone">
             <img src="public/images/telecom-operators/kievstar.png" alt="Киевстар">
-            <span>097 457 61 20</span>
+            <span title="kievstar">097 457 61 20</span>
         </div>
         <div class="phone">
             <img src="public/images/telecom-operators/vodafone.png" alt="Водафон">
-            <span>050 238 71 22</span>
+            <span title="vodafone">050 238 71 22</span>
         </div>
         <button class="btn-call-order">Заказать звонок</button>
     </div>

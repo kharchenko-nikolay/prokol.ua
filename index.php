@@ -110,7 +110,6 @@
             <a href="" class="detail">Посмотреть больше работ</a>
         </div>
     </section>
-    <div class="separator"></div>
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
