@@ -5,7 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Прокол грунта под дорогой</title>
+    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации) prokol.ua</title>
+    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
+    Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
+    водоснабжения, монтаж водопровода в частном доме, врезка в водопровод под давлением, монтаж водопровода,
+    монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
     <link rel="icon" href="public/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="public/css/style.css" type="text/css">
 </head>

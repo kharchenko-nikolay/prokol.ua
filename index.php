@@ -94,7 +94,7 @@
         </div>
     </section>
     <div class="separator"></div>
-    <section>
+    <section style="border: none">
         <div class="container-center">
             <h2>Выполненные работы</h2>
             <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
@@ -110,6 +110,7 @@
             <a href="" class="detail">Посмотреть больше работ</a>
         </div>
     </section>
+    <div class="separator" style="background-color: #fefaf2"></div>
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
