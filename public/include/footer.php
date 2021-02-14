@@ -14,7 +14,7 @@
             <span title="vodafone">050 238 71 22</span>
         </div>
     </div>
-    <span>Все права защищены &copy; <?= date('Y') ?></span>
+    <span>&copy; Все права защищены <?= date('Y') ?></span>
 </footer>
 <script src="public/js/carousel.js"></script>
 </body>

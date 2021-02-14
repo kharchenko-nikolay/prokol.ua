@@ -17,12 +17,6 @@ body{
     padding: 0;
 }
 
-div.separator{
-    height: 100px;
-    background-color: #f6daa8;
-    background-image: url("../images/pipe.png");
-}
-
 main{
     position: relative;
 }
@@ -30,15 +24,17 @@ main{
 div.pipe-vertical-left{
     position: absolute;
     background-image: url("../images/pipe-vertical.png");
+    background-size: contain;
     height: 100%;
-    width: 100px;
+    width: 6%;
 }
 
 div.pipe-vertical-right {
     position: absolute;
     background-image: url("../images/pipe-vertical.png");
+    background-size: contain;
     height: 100%;
-    width: 100px;
+    width: 6%;
     right: 0;
     transform: scale(-1, -1);
 }
@@ -53,7 +49,7 @@ section{
 div.flex-container{
     padding-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -348,4 +344,16 @@ div#numbers{
 #numbers > .phone > img{
     filter: grayscale(100%);
     width: 20px;
+}
+
+@media screen and (max-width: 820px){
+
+    .wrapper-type-work > h3{
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+
+    footer > address, footer > span{
+        display: none;
+    }
 }

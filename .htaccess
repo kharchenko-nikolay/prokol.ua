@@ -1,0 +1,7 @@
+# кодировка сайта
+AddDefaultCharset utf-8
+
+# реализация ЧПУ
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-z]+-?[a-z]+)$ /public/$1.php [NC,L]

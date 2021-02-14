@@ -42,7 +42,6 @@
             <li><a class="menu-item" href="/">Главная</a></li>
             <li><a class="menu-item" href="">Виды работ</a></li>
             <li><a class="menu-item" href="">Выполненные работы</a></li>
-            <li><a class="menu-item" href="">Отзывы</a></li>
             <li><a class="menu-item" href="">Контакты</a></li>
             <li><a class="menu-item" href="">Цены</a></li>
         </ul>
