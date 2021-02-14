@@ -220,8 +220,6 @@ ul.menu{
 
 div.wrapper-type-work{
     width: 500px;
-    height: 400px;
-    background-color: darkgrey;
     margin-bottom: 40px;
     border-radius: 5px;
     border-bottom: 1px solid rgba(0,0,0,0.7);
@@ -232,11 +230,21 @@ div.wrapper-type-work{
     height: 85%;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
+    vertical-align: top;
 }
 
-.wrapper-type-work > h3{
+.wrapper-type-work > div{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 5px 5px;
+    /*background: linear-gradient(#c8c8c8 ,#898989);*/
+    background: linear-gradient(#c8c8c8 ,#767676);
+}
+
+.wrapper-type-work > div > h3{
     margin: 0;
-    padding: 13px 10px;
     font-size: 22px;
     font-family: "Cuprum", sans-serif;
     color: rgba(0,0,0,0.9);
@@ -346,14 +354,26 @@ div#numbers{
     width: 20px;
 }
 
+/* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 
-    .wrapper-type-work > h3{
+    .wrapper-type-work > div > h3{
         font-size: 18px;
-        padding: 15px 10px;
     }
 
     footer > address, footer > span{
         display: none;
+    }
+
+    .arrow-right + a{
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+}
+
+/* Для экранов <= 1300 пикселей */
+@media screen and (max-width: 1300px){
+    .container-center > h2{
+        font-size: 24px;
     }
 }

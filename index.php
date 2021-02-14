@@ -11,43 +11,42 @@
                     <img src="public/images/photos-of-works/prokol.jpg"
                          alt="Прокол грунта под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
-                    <h3>Прокол грунта под дорогой</h3>
+                    <div><h3>Прокол грунта под дорогой</h3></div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
                          alt="Монтаж труб водопровода наружных сетей"
                          title="Монтаж водопровода">
-                    <h3>Монтаж труб наружного водопровода</h3>
+                    <div><h3>Монтаж труб наружного водопровода</h3></div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                          alt="Замена труб в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
-                    <h3>Замена труб в частном доме</h3>
+                    <div><h3>Замена труб в частном доме</h3></div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/kanalizaciya.jpg"
                          alt="Монтаж труб наружной канализации"
                          title="Монтаж канализации">
-                    <h3>Монтаж труб наружной канализации</h3>
+                    <div><h3>Монтаж труб наружной канализации</h3></div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vrezka.jpg"
                          alt="Врезка в водопроводную трубу под давлением"
                          title="Врезка в водопровод">
-                    <h3>Врезки в водопровод под давлением</h3>
+                    <div><h3>Врезки в водопровод под давлением</h3></div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/sanaciya.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
-                    <h3>Санация, протяжка трубы в трубу</h3>
+                    <div><h3>Санация, протяжка трубы в трубу</h3></div>
                 </div>
             </div>
             <a href="" class="detail">Подробнее</a>
         </div>
     </section>
-    <div class="separator"></div>
     <section>
         <div class="container-center">
             <h2>Наши преимущества</h2>
@@ -93,7 +92,6 @@
             </div>
         </div>
     </section>
-    <div class="separator"></div>
     <section style="border: none">
         <div class="container-center">
             <h2>Выполненные работы</h2>
@@ -110,7 +108,6 @@
             <a href="" class="detail">Посмотреть больше работ</a>
         </div>
     </section>
-    <div class="separator" style="background-color: #fefaf2"></div>
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
