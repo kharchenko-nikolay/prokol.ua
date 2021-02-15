@@ -11,37 +11,49 @@
                     <img src="public/images/photos-of-works/prokol.jpg"
                          alt="Прокол грунта под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
-                    <div><h3>Прокол грунта под дорогой</h3></div>
+                    <div>
+                        <h3>Прокол грунта под дорогой</h3>
+                    </div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
                          alt="Монтаж труб водопровода наружных сетей"
                          title="Монтаж водопровода">
-                    <div><h3>Монтаж труб наружного водопровода</h3></div>
+                    <div>
+                        <h3>Монтаж труб наружного водопровода</h3>
+                    </div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                          alt="Замена труб в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
-                    <div><h3>Замена труб в частном доме</h3></div>
+                    <div>
+                        <h3>Замена труб в частном доме</h3>
+                    </div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/kanalizaciya.jpg"
                          alt="Монтаж труб наружной канализации"
                          title="Монтаж канализации">
-                    <div><h3>Монтаж труб наружной канализации</h3></div>
+                    <div>
+                        <h3>Монтаж труб наружной канализации</h3>
+                    </div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vrezka.jpg"
                          alt="Врезка в водопроводную трубу под давлением"
                          title="Врезка в водопровод">
-                    <div><h3>Врезки в водопровод под давлением</h3></div>
+                    <div>
+                        <h3>Врезки в водопровод под давлением</h3>
+                    </div>
                 </div>
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/sanaciya.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
-                    <div><h3>Санация, протяжка трубы в трубу</h3></div>
+                    <div>
+                        <h3>Санация, протяжка трубы в трубу</h3>
+                    </div>
                 </div>
             </div>
             <a href="vidy-rabot" class="detail">Подробнее</a>
@@ -52,42 +64,45 @@
             <h2>Наши преимущества</h2>
             <div class="flex-container">
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/quality.png" alt="Качество работ">
-                    <p>
-                        <b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/quality.png" alt="Качество работ"
+                        style="object-fit: cover">
+                    </div>
+                    <p><b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале</p>
                 </div>
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/terms.png" alt="Сроки выполнения">
-                    <p>
-                        <b>Сроки выполнения</b><br>работу стараемся выполнять по максимуму<br>
-                        быстро, обычно это 1 - 2 дня
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/terms.png" alt="Сроки выполнения">
+                    </div>
+                    <p><b>Сроки выполнения</b><br>работу стараемся выполнять по максимуму<br>
+                        быстро, обычно это 1 - 2 дня</p>
                 </div>
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/warranty.png" alt="Гарантия выполненной работы">
-                    <p>
-                        <b>Гарантия выполненной работы</b><br>мы никуда не пропадаем, в случае утечки приезжаем делаем
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/warranty.png" alt="Гарантия выполненной работы">
+                    </div>
+                    <p><b>Гарантия выполненной работы</b><br>
+                        мы никуда не пропадаем, в случае утечки приезжаем делаем</p>
                 </div>
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/master.png" alt="Выезд мастера бесплатный">
-                    <p>
-                        <b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/master.png" alt="Выезд мастера бесплатный">
+                    </div>
+                    <p><b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно</p>
                 </div>
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/delivery.png" alt="Доставка материала бесплатно">
-                    <p>
-                        <b>Доставка материала бесплатно</b><br>материал к объекту доставляем на своем авто бесплатно
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/delivery.png" alt="Доставка материала бесплатно">
+                    </div>
+                    <p><b>Доставка материала бесплатно</b><br>
+                        материал к объекту доставляем на своем авто бесплатно</p>
                 </div>
                 <div class="wrapper-advantage">
-                    <img src="public/images/photos-of-works/key.png" alt="Работа под ключ">
-                    <p>
-                        <b>Выполненяем работу под ключ</b><br>
-                        прокладываем трубы, подключаемся, ставим под давление проверяем
-                    </p>
+                    <div>
+                        <img src="public/images/photos-of-works/key.png" alt="Работа под ключ">
+                    </div>
+                    <p><b>Выполненяем работу под ключ</b><br>
+                        прокладываем трубы, подключаемся, ставим под давление проверяем</p>
                 </div>
             </div>
         </div>

@@ -255,11 +255,18 @@ div.wrapper-type-work{
 div.wrapper-advantage{
     width: 500px;
     height: 400px;
+    text-align: center;
 }
 
-.wrapper-advantage > img{
-    width: 50%;
-    height: 50%;
+.wrapper-advantage > div{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.wrapper-advantage > div > img{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -359,6 +366,13 @@ div#numbers{
 
     footer > address, footer > span{
         display: none;
+    }
+
+    hr{
+        display: block;
+        width: 100%;
+        border-radius: 100%;
+        border: 1px solid black;
     }
 
     .arrow-right + a{
