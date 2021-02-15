@@ -40,10 +40,10 @@
     <nav class="main-menu">
         <ul class="menu">
             <li><a class="menu-item" href="/">Главная</a></li>
-            <li><a class="menu-item" href="">Виды работ</a></li>
-            <li><a class="menu-item" href="">Выполненные работы</a></li>
-            <li><a class="menu-item" href="">Контакты</a></li>
-            <li><a class="menu-item" href="">Цены</a></li>
+            <li><a class="menu-item" href="vidy-rabot">Виды работ</a></li>
+            <li><a class="menu-item" href="vypolnennye-raboty">Выполненные работы</a></li>
+            <li><a class="menu-item" href="kontakty">Контакты</a></li>
+            <li><a class="menu-item" href="ceny">Цены</a></li>
         </ul>
     </nav>
 </header>

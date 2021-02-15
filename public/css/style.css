@@ -220,6 +220,7 @@ ul.menu{
 
 div.wrapper-type-work{
     width: 500px;
+    height: 400px;
     margin-bottom: 40px;
     border-radius: 5px;
     border-bottom: 1px solid rgba(0,0,0,0.7);
@@ -239,8 +240,7 @@ div.wrapper-type-work{
     align-items: center;
     justify-content: center;
     border-radius: 0 0 5px 5px;
-    /*background: linear-gradient(#c8c8c8 ,#898989);*/
-    background: linear-gradient(#c8c8c8 ,#767676);
+    background: linear-gradient(#c8c8c8 ,#898989);
 }
 
 .wrapper-type-work > div > h3{
@@ -259,12 +259,8 @@ div.wrapper-advantage{
 
 .wrapper-advantage > img{
     width: 50%;
-    height: 60%;
-    object-fit: fill;
-}
-
-img[alt="Качество работ"], img[alt="Работа под ключ"]{
-    width: 65%;
+    height: 50%;
+    object-fit: contain;
 }
 
 .wrapper-advantage > p{
@@ -358,7 +354,7 @@ div#numbers{
 @media screen and (max-width: 820px){
 
     .wrapper-type-work > div > h3{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     footer > address, footer > span{

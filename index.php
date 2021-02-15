@@ -44,7 +44,7 @@
                     <div><h3>Санация, протяжка трубы в трубу</h3></div>
                 </div>
             </div>
-            <a href="" class="detail">Подробнее</a>
+            <a href="vidy-rabot" class="detail">Подробнее</a>
         </div>
     </section>
     <section>
@@ -105,7 +105,7 @@
                 <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg" alt="" hidden>
             </div>
             <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
-            <a href="" class="detail">Посмотреть больше работ</a>
+            <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
         </div>
     </section>
 </main>
