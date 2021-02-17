@@ -89,6 +89,12 @@ a.detail{
     font-family: "Cuprum", sans-serif;
 }
 
+hr{
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
 /* ========================== СТИЛИ ДЛЯ ШАПКИ САЙТА==========================*/
 
 header{
@@ -357,6 +363,46 @@ div#numbers{
     width: 20px;
 }
 
+/* ========================== СТИЛИ ДЛЯ СТРАНИЦЫ КОНТАКТЫ ==========================*/
+
+div.contacts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Cuprum", sans-serif;
+}
+
+.contacts > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.contacts > h2{
+    font-size: 28px;
+    color: rgba(0,0,0,.9);
+}
+
+.contacts > address{
+    all: unset;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.contacts > div > img{
+    width: 40px;
+    padding: 0 15px 0 0;
+}
+
+.contacts > div > a{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    font-family: sans-serif;
+}
+
+/* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
+
 /* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 
@@ -370,9 +416,6 @@ div#numbers{
 
     hr{
         display: block;
-        width: 100%;
-        border-radius: 100%;
-        border: 1px solid black;
     }
 
     .arrow-right + a{

@@ -5,7 +5,9 @@
     <div class="pipe-vertical-right"></div>
     <section>
         <div class="container-center">
+            <hr>
             <h2>Виды выполняемых работ</h2>
+            <hr>
             <div class="flex-container">
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/prokol.jpg"
@@ -61,15 +63,17 @@
     </section>
     <section>
         <div class="container-center">
+            <hr>
             <h2>Наши преимущества</h2>
+            <hr>
             <div class="flex-container">
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/quality.png" alt="Качество работ"
-                        style="object-fit: cover">
+                        <img src="public/images/photos-of-works/quality.png" alt="Качество работ">
                     </div>
                     <p><b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале</p>
                 </div>
+                <hr hidden>
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/terms.png" alt="Сроки выполнения">
@@ -77,6 +81,7 @@
                     <p><b>Сроки выполнения</b><br>работу стараемся выполнять по максимуму<br>
                         быстро, обычно это 1 - 2 дня</p>
                 </div>
+                <hr hidden>
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/warranty.png" alt="Гарантия выполненной работы">
@@ -84,12 +89,14 @@
                     <p><b>Гарантия выполненной работы</b><br>
                         мы никуда не пропадаем, в случае утечки приезжаем делаем</p>
                 </div>
+                <hr hidden>
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/master.png" alt="Выезд мастера бесплатный">
                     </div>
                     <p><b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно</p>
                 </div>
+                <hr hidden>
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/delivery.png" alt="Доставка материала бесплатно">
@@ -97,6 +104,7 @@
                     <p><b>Доставка материала бесплатно</b><br>
                         материал к объекту доставляем на своем авто бесплатно</p>
                 </div>
+                <hr hidden>
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/key.png" alt="Работа под ключ">
@@ -109,7 +117,9 @@
     </section>
     <section style="border: none">
         <div class="container-center">
+            <hr>
             <h2>Выполненные работы</h2>
+            <hr>
             <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
             <div class="carousel">
                 <img src="public/images/photos-of-works/vrezka.jpg" alt="">
@@ -126,5 +136,11 @@
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
+
+<script src="public/js/carousel.js"></script>
+</body>
+</html>
+
+
 
 
