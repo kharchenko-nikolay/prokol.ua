@@ -66,7 +66,7 @@ a.detail{
     font-size: 24px;
     color: white;
     background-color: #1caa00;
-    padding: 5px 50px;
+    padding: 5px 10px;
     border-radius: 3px;
     border: 1px solid rgba(0,0,0,0.8);
     box-shadow: 0 0 5px black;
@@ -355,7 +355,7 @@ div#numbers{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180px;
+    width: 184px;
 }
 
 #numbers > .phone > img{
@@ -376,12 +376,13 @@ div.contacts{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .contacts > h2{
     font-size: 28px;
     color: rgba(0,0,0,.9);
+    margin: 0;
 }
 
 .contacts > address{
@@ -391,7 +392,7 @@ div.contacts{
 }
 
 .contacts > div > img{
-    width: 40px;
+    width: 30px;
     padding: 0 15px 0 0;
 }
 
@@ -399,6 +400,47 @@ div.contacts{
     text-decoration: none;
     color: rgba(0,0,0,.8);
     font-family: sans-serif;
+}
+
+.messengers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.messenger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messenger > a{
+    display: block;
+    width: 190px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.8);
+    box-shadow: 0 0 5px black;
+    font-family: "Cuprum", sans-serif;
+    margin-left: 5px;
+}
+
+.messenger > a:hover{
+    background-color: #1caa00;
+}
+
+.messenger > a:active{
+    background-color: black;
+}
+
+.messenger > img{
+    width: 45px;
+    margin-right: 5px;
 }
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
@@ -421,6 +463,10 @@ div.contacts{
     .arrow-right + a{
         font-size: 20px;
         padding: 5px 15px;
+    }
+
+    #numbers > .phone > img{
+        padding-right: 5px;
     }
 }
 
