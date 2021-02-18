@@ -43,7 +43,7 @@
                 <h2>Почта</h2>
                 <hr>
                 <div>
-                    <a href="mailto:dneprokol@gmail.com" style="margin-top: 20px">dneprokol@gmail.com</a>
+                    <a href="mailto:dneprokol@gmail.com" style="margin-top: 25px">dneprokol@gmail.com</a>
                 </div>
             </div>
         </div>

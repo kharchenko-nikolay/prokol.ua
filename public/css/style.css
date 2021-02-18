@@ -171,8 +171,12 @@ div.phone{
     align-items: center;
 }
 
-div.phone > img{
+.phone > img{
     width: 1.2vw;
+}
+
+.phone > a{
+    all: unset;
 }
 
 /* ========================== СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ ==========================*/
@@ -196,7 +200,7 @@ ul.menu{
 }
 
 .menu > li > a{
-    font-size: 1.4vw;
+    font-size: 24px;
     text-decoration: none;
     color: black;
 }
@@ -376,30 +380,31 @@ div.contacts{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .contacts > h2{
-    font-size: 28px;
+    font-size: 24px;
     color: rgba(0,0,0,.9);
     margin: 0;
 }
 
 .contacts > address{
     all: unset;
-    font-size: 28px;
+    font-size: 24px;
     margin: 10px 0;
 }
 
 .contacts > div > img{
     width: 30px;
-    padding: 0 15px 0 0;
+    padding-right: 7px;
 }
 
 .contacts > div > a{
     text-decoration: none;
     color: rgba(0,0,0,.8);
     font-family: sans-serif;
+    padding-left: 7px;
 }
 
 .messengers {
@@ -421,7 +426,7 @@ div.contacts{
     font-size: 22px;
     text-decoration: none;
     color: white;
-    background-color: red;
+    background-color: #1caa00;
     padding: 3px 10px;
     border-radius: 3px;
     border: 1px solid rgba(0,0,0,0.8);
@@ -431,7 +436,7 @@ div.contacts{
 }
 
 .messenger > a:hover{
-    background-color: #1caa00;
+    background-color: red;
 }
 
 .messenger > a:active{
@@ -468,11 +473,51 @@ div.contacts{
     #numbers > .phone > img{
         padding-right: 5px;
     }
+
+    .menu > li > a{
+        font-size: 16px;
+    }
 }
 
 /* Для экранов <= 1300 пикселей */
 @media screen and (max-width: 1300px){
     .container-center > h2{
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1650px){
+    div.phones{
+        top: 1.5%;
+        right: 2.3%;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    div.phones{
+        top: 1%;
+        right: 2%;
+    }
+
+    .menu > li > a{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    div.phones{
+        top: 0.7%;
+        right: 1.7%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    div.phones{
+        top: 0.7%;
+        right: 1.2%;
+    }
+
+    .menu > li > a{
+        font-size: 20px;
     }
 }
