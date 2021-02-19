@@ -123,6 +123,7 @@ a.logo-text {
 img.sun-img{
     width: 4%;
     left: 61.5%;
+    top: 0;
     position: absolute;
 }
 
@@ -177,6 +178,22 @@ div.phone{
 
 .phone > a{
     all: unset;
+}
+
+
+.messengers-header{
+    position: absolute;
+    left: 2.5%;
+    top: 4%;
+}
+
+.messengers-header > a{
+    text-decoration: none;
+    margin-right: 0.4vw;
+}
+
+.messengers-header > a > img{
+    width: 2vw;
 }
 
 /* ========================== СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ ==========================*/
@@ -450,6 +467,54 @@ div.contacts{
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
 
+/* Для экранов <= 1650 пикселей */
+@media screen and (max-width: 1650px){
+    div.phones{
+        top: 1.5%;
+        right: 2.3%;
+    }
+
+    .menu > li > a{
+        font-size: 22px;
+    }
+}
+
+/* Для экранов <= 1350 пикселей */
+@media screen and (max-width: 1350px){
+    .container-center > h2{
+        font-size: 24px;
+    }
+
+    div.phones{
+        top: 1%;
+        right: 2%;
+    }
+
+    .menu > li > a{
+        font-size: 20px;
+    }
+}
+
+/* Для экранов <= 1200 пикселей */
+@media screen and (max-width: 1200px){
+    div.phones{
+        top: 0.7%;
+        right: 1.7%;
+    }
+}
+
+/* Для экранов <= 1000 пикселей */
+@media screen and (max-width: 1000px){
+    div.phones{
+        top: 0.7%;
+        right: 1.2%;
+    }
+
+    .menu > li > a{
+        font-size: 18px;
+    }
+}
+
 /* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 
@@ -475,49 +540,6 @@ div.contacts{
     }
 
     .menu > li > a{
-        font-size: 16px;
-    }
-}
-
-/* Для экранов <= 1300 пикселей */
-@media screen and (max-width: 1300px){
-    .container-center > h2{
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 1650px){
-    div.phones{
-        top: 1.5%;
-        right: 2.3%;
-    }
-}
-
-@media screen and (max-width: 1350px){
-    div.phones{
-        top: 1%;
-        right: 2%;
-    }
-
-    .menu > li > a{
-        font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 1200px){
-    div.phones{
-        top: 0.7%;
-        right: 1.7%;
-    }
-}
-
-@media screen and (max-width: 1000px){
-    div.phones{
-        top: 0.7%;
-        right: 1.2%;
-    }
-
-    .menu > li > a{
-        font-size: 20px;
+        font-size: 12px;
     }
 }

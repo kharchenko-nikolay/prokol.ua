@@ -27,7 +27,7 @@
             <div class="messengers">
                 <div class="messenger">
                     <img src="public/images/messengers/viber.png" alt="Viber" title="Viber">
-                    <a href="//chat?380636364260">Написать в Viber</a>
+                    <a href="viber://chat?number=380636364260">Написать в Viber</a>
                 </div>
                 <div class="messenger">
                     <img src="public/images/messengers/telegram.png" alt="Telegram" title="Telegram">

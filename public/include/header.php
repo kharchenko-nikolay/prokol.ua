@@ -21,6 +21,17 @@
     <a href="/" class="logo-text">
         <h1>Прокол под дорогой<br>Монтаж водопровода</h1>
     </a>
+    <div class="messengers-header">
+        <a href="https://wa.me/380636364260">
+            <img src="public/images/messengers/whatsapp.png" alt="Whatsapp" title="Whatsapp">
+        </a>
+        <a href="tg://resolve?domain=kharchenko_nikolay">
+            <img src="public/images/messengers/telegram.png" alt="Telegram" title="Telegram">
+        </a>
+        <a href="viber://chat?number=380636364260">
+            <img src="public/images/messengers/viber.png" alt="Viber" title="Viber">
+        </a>
+    </div>
     <div class="phones">
         <address style="color: #3b3b3b;">г. Днепр</address>
         <div class="phone" style="margin-top: 5px;">
