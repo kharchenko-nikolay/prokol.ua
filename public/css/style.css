@@ -472,7 +472,7 @@ table{
     background: slategray;
     border-radius: 20px;
     border-spacing: 5px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 tr > td:first-child{
@@ -565,5 +565,9 @@ td{
 
     .menu > li > a{
         font-size: 12px;
+    }
+
+    th,td{
+        font-size: 14px;
     }
 }
