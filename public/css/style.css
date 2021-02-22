@@ -180,7 +180,6 @@ div.phone{
     all: unset;
 }
 
-
 .messengers-header{
     position: absolute;
     left: 2.5%;
@@ -205,7 +204,7 @@ nav.main-menu{
     align-items: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background: linear-gradient(to top, #da9e2b, #f8d8b2);
+    background: linear-gradient(#f8d8b2, #da9e2b);
 }
 
 ul.menu{
@@ -255,19 +254,19 @@ div.wrapper-type-work{
 
 .wrapper-type-work > img{
     width: 100%;
-    height: 85%;
+    height: 90%;
     object-fit: cover;
     border-radius: 5px 5px 0 0;
     vertical-align: top;
 }
 
 .wrapper-type-work > div{
-    height: 15%;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0 0 5px 5px;
-    background: linear-gradient(#c8c8c8 ,#898989);
+    background: linear-gradient(#f8d8b2, #da9e2b);
 }
 
 .wrapper-type-work > div > h3{
@@ -463,6 +462,31 @@ div.contacts{
 .messenger > img{
     width: 45px;
     margin-right: 5px;
+}
+
+/* ========================== СТИЛИ ДЛЯ СТРАНИЦЫ ЦЕНЫ ==========================*/
+
+table{
+    display: inline-block;
+    font-family: sans-serif;
+    background: slategray;
+    border-radius: 20px;
+    border-spacing: 5px;
+    margin-top: 20px;
+}
+
+tr > td:first-child{
+    text-align: left;
+}
+
+th{
+    font-size: 18px;
+    padding: 10px;
+}
+
+td{
+    background: lightgray;
+    padding: 10px;
 }
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
