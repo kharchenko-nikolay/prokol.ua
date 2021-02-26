@@ -1,3 +1,9 @@
-<?php
+<?php require_once '../include/header.php'; ?>
 
-echo "<h1>It is vypolnennye raboty</h1>";
+<main>
+    <section>
+
+    </section>
+</main>
+
+<?php require_once '../include/footer.php'; ?>

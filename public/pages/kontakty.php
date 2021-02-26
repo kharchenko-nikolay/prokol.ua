@@ -1,11 +1,11 @@
 <?php require_once '../include/header.php'; ?>
 
 <main>
-    <section>
+    <section class="container-section">
         <div class="container-center">
             <div class="contacts">
                 <hr>
-                <h2>Нажмите на номер чтобы позвонить</h2>
+                <h2 class="contact-heading">Нажмите на номер чтобы позвонить</h2>
                 <hr>
                 <address>г. Днепр и область</address>
                 <div>
@@ -20,11 +20,11 @@
                     <img src="public/images/telecom-operators/vodafone.png" alt="Водафон" title="Водафон">
                     <a href="tel:+380636364260">050 684 4905</a>
                 </div>
-                <hr>
-                <h2>Вы можете написать нам в чат</h2>
-                <hr>
             </div>
             <div class="messengers">
+                <hr>
+                <h2 class="contact-heading">Вы можете написать нам в чат</h2>
+                <hr>
                 <div class="messenger">
                     <img src="public/images/messengers/viber.png" alt="Viber" title="Viber">
                     <a href="viber://chat?number=380636364260">Написать в Viber</a>
@@ -40,7 +40,7 @@
             </div>
             <div class="contacts">
                 <hr>
-                <h2>Почта</h2>
+                <h2 class="contact-heading">Почта</h2>
                 <hr>
                 <div>
                     <a href="mailto:dneprokol@gmail.com" style="margin-top: 25px">dneprokol@gmail.com</a>

@@ -3,10 +3,10 @@
 <main>
     <div class="pipe-vertical-left"></div>
     <div class="pipe-vertical-right"></div>
-    <section>
+    <section class="container-section">
         <div class="container-center">
             <hr>
-            <h2>Виды выполняемых работ</h2>
+            <h2 class="main-heading">Виды выполняемых работ</h2>
             <hr>
             <div class="flex-container">
                 <div class="wrapper-type-work">
@@ -14,7 +14,9 @@
                          alt="Прокол грунта под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
                     <div>
-                        <h3>Прокол грунта под дорогой</h3>
+                        <a href="vidy-rabot#prokol">
+                            <h3>Прокол грунта под дорогой</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="wrapper-type-work">
@@ -22,7 +24,9 @@
                          alt="Монтаж труб водопровода наружных сетей"
                          title="Монтаж водопровода">
                     <div>
-                        <h3>Монтаж труб наружного водопровода</h3>
+                        <a href="vidy-rabot#montag-trub">
+                            <h3>Монтаж труб наружного водопровода</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="wrapper-type-work">
@@ -30,7 +34,9 @@
                          alt="Замена труб в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
                     <div>
-                        <h3>Замена труб в частном доме</h3>
+                        <a href="vidy-rabot#zamena-trub">
+                            <h3>Замена труб в частном доме</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="wrapper-type-work">
@@ -38,7 +44,9 @@
                          alt="Монтаж труб наружной канализации"
                          title="Монтаж канализации">
                     <div>
-                        <h3>Монтаж труб наружной канализации</h3>
+                        <a href="vidy-rabot#kanalizaciya">
+                            <h3>Прокладка наружной канализации</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="wrapper-type-work">
@@ -46,7 +54,9 @@
                          alt="Врезка в водопроводную трубу под давлением"
                          title="Врезка в водопровод">
                     <div>
-                        <h3>Врезки в водопровод под давлением</h3>
+                        <a href="vidy-rabot#vrezki">
+                            <h3>Врезки в водопровод под давлением</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="wrapper-type-work">
@@ -54,17 +64,19 @@
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
                     <div>
-                        <h3>Санация, протяжка трубы в трубу</h3>
+                        <a href="vidy-rabot#sanaciya">
+                            <h3>Санация, протяжка трубы в трубу</h3>
+                        </a>
                     </div>
                 </div>
             </div>
             <a href="vidy-rabot" class="detail">Подробнее</a>
         </div>
     </section>
-    <section>
+    <section class="container-section">
         <div class="container-center">
             <hr>
-            <h2>Наши преимущества</h2>
+            <h2 class="main-heading">Наши преимущества</h2>
             <hr>
             <div class="flex-container">
                 <div class="wrapper-advantage">
@@ -115,10 +127,10 @@
             </div>
         </div>
     </section>
-    <section style="border: none">
+    <section class="container-section">
         <div class="container-center">
             <hr>
-            <h2>Выполненные работы</h2>
+            <h2 class="main-heading">Выполненные работы</h2>
             <hr>
             <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
             <div class="carousel">

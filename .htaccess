@@ -3,5 +3,5 @@ AddDefaultCharset utf-8
 
 # реализация ЧПУ
 RewriteEngine On
-RewriteBase /
-RewriteRule ^([a-z]+-?[a-z]+)$ /public/pages/$1.php [NC,L]
+RewriteBase /public/pages/
+RewriteRule ^([a-z]+-?[a-z]+)$ $1.php [NC,L]

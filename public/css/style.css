@@ -39,7 +39,7 @@ div.pipe-vertical-right {
     transform: scale(-1, -1);
 }
 
-section{
+.container-section{
     width: 100%;
     padding: 40px 0;
     background: linear-gradient(#f6daa8, #fffbf3);
@@ -81,7 +81,7 @@ a.detail{
     background-color: black;
 }
 
-.container-center > h2{
+.main-heading{
     margin: 0;
     font-size: 1.8vw;
     font-weight: 0;
@@ -269,11 +269,20 @@ div.wrapper-type-work{
     background: linear-gradient(#f8d8b2, #da9e2b);
 }
 
-.wrapper-type-work > div > h3{
+.wrapper-type-work > div > a{
+    text-decoration: none;
+}
+
+.wrapper-type-work > div > a > h3 {
     margin: 0;
     font-size: 22px;
     font-family: "Cuprum", sans-serif;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.wrapper-type-work > div > a > h3:hover{
+    color: #fffbf3;
+    text-shadow: 0 0 5px black;
 }
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА НАШИ ПРЕИМУЩЕСТВА ==========================*/
@@ -399,7 +408,7 @@ div.contacts{
     font-size: 28px;
 }
 
-.contacts > h2{
+.contact-heading{
     font-size: 24px;
     color: rgba(0,0,0,.9);
     margin: 0;
@@ -428,6 +437,7 @@ div.contacts{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Cuprum", sans-serif;
 }
 
 .messenger{
@@ -489,6 +499,31 @@ td{
     padding: 10px;
 }
 
+/* ========================== СТИЛИ ДЛЯ СТРАНИЦЫ ВИДЫ РАБОТ ==========================*/
+
+.container-article{
+    margin-top: 30px;
+}
+
+.container-article > img{
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container-article > h3{
+    font-family: "Cuprum", sans-serif;
+    font-size: 26px;
+    margin: 15px 0;
+}
+
+.container-article > p{
+    font-family: "Cuprum-Italic", sans-serif;
+    font-size: 22px;
+    margin: 0 auto;
+    width: 70%;
+}
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
 
 /* Для экранов <= 1650 пикселей */
@@ -569,5 +604,14 @@ td{
 
     th,td{
         font-size: 14px;
+    }
+
+    .container-article > img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .container-article > p{
+        width: 90%;
     }
 }
