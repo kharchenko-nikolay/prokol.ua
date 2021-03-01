@@ -132,16 +132,18 @@
             <hr>
             <h2 class="main-heading">Выполненные работы</h2>
             <hr>
-            <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
-            <div class="carousel">
-                <img src="public/images/photos-of-works/vrezka.jpg" alt="">
-                <img src="public/images/photos-of-works/kanalizaciya.jpg" alt="" hidden>
-                <img src="public/images/photos-of-works/montag-vodoprovoda.jpg" alt="" hidden>
-                <img src="public/images/photos-of-works/prokol.jpg" alt="" hidden>
-                <img src="public/images/photos-of-works/sanaciya.jpg" alt="" hidden>
-                <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg" alt="" hidden>
+            <div class="container-carousel">
+                <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
+                <div class="carousel-images">
+                    <img src="public/images/photos-of-works/vrezka.jpg" alt="">
+                    <img src="public/images/photos-of-works/kanalizaciya.jpg" alt="" hidden>
+                    <img src="public/images/photos-of-works/montag-vodoprovoda.jpg" alt="" hidden>
+                    <img src="public/images/photos-of-works/prokol.jpg" alt="" hidden>
+                    <img src="public/images/photos-of-works/sanaciya.jpg" alt="" hidden>
+                    <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg" alt="" hidden>
+                </div>
+                <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
             </div>
-            <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
             <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
         </div>
     </section>

@@ -221,6 +221,10 @@ ul.menu{
     color: black;
 }
 
+.active{
+    color: #bb0053;
+}
+
 /* Для плавного подчеркивания ссылки верхнего меню при наведении */
 .menu-item:after{
     display: block;
@@ -312,18 +316,22 @@ div.wrapper-advantage{
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА ВЫПОЛНЕННЫЕ РАБОТЫ ==========================*/
 
-div.carousel{
-    transition: all 1s ease-out;
-    width: 100%;
-    margin: 30px auto;
+.container-carousel{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 30px 0;
 }
 
-.carousel > img{
+div.carousel-images{
+    transition: all 1s ease-out;
+    width: 100%;
+
+}
+
+.carousel-images > img{
     object-fit: cover;
-    width: 70%;
+    width: 85%;
     height: 600px;
     border-radius: 5px;
     animation-name: carousel;
@@ -338,18 +346,12 @@ div.carousel{
 
 
 img.arrow-left{
-    position: absolute;
-    width: 10%;
-    left: 0;
-    top: 35%;
+    width: 8%;
     transform: scale(-1,-1);
 }
 
 img.arrow-right{
-    position: absolute;
-    width: 10%;
-    right: 0;
-    top: 35%;
+    width: 8%;
 }
 
 .transition{
@@ -577,8 +579,8 @@ td{
 /* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 
-    .wrapper-type-work > div > h3{
-        font-size: 20px;
+    .wrapper-type-work > div > a > h3 {
+        font-size: 18px;
     }
 
     footer > address, footer > span{
@@ -613,5 +615,10 @@ td{
 
     .container-article > p{
         width: 90%;
+    }
+
+    .carousel-images > img{
+        height: 400px;
+        width: 95%;
     }
 }
