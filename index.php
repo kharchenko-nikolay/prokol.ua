@@ -147,13 +147,13 @@
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                          alt="Замена водопровода в доме" title="Замена водопровода в частном секторе" hidden>
                 </div>
-                <div class="arrows">
+                <div class="arrows" style="margin-bottom: 5px">
                     <img src="public/images/arrow.png" class="arrow-left transition" alt="Стрелка влево">
                     <img src="public/images/points.png" alt="points" class="points">
                     <img src="public/images/arrow.png" class="arrow-right transition" alt="Стрелка вправо">
                 </div>
             </div>
-            <hr style="margin-bottom: 30px">
+            <hr class="carousel-hr">
             <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
         </div>
     </section>

@@ -343,7 +343,6 @@ div.carousel-images{
 }
 
 .arrows{
-    /*margin-bottom: 30px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,6 +362,10 @@ img.arrow-right{
 
 .points{
     height: 50px;
+}
+
+.carousel-hr{
+    margin-bottom: 30px
 }
 
 .transition{
@@ -601,6 +604,32 @@ td{
 /* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 
+    /*====== СТИЛИ ДЛЯ ШАПКИ ======*/
+
+    img[alt="header"]{
+        content: url("../images/header-mini.jpeg");
+    }
+
+    .messengers-header,
+    .phones{
+        display: none !important;
+    }
+
+    .logo-text{
+        font-size: 15px !important;
+    }
+
+    .sun-img{
+        width: 6% !important;
+        left: 78% !important;
+    }
+
+    .menu > li > a{
+        font-size: 12px;
+    }
+
+    /*====== ОСТАЛЬНЫЕ СТИЛИ ======*/
+
     .wrapper-type-work > div > a > h3 {
         font-size: 18px;
     }
@@ -615,10 +644,6 @@ td{
 
     #numbers > .phone > img{
         padding-right: 5px;
-    }
-
-    .menu > li > a{
-        font-size: 12px;
     }
 
     th,td{
@@ -659,5 +684,13 @@ td{
 
     .container-center{
         padding: 20px 0 30px 0 !important;
+    }
+
+    .carousel-hr{
+        display: none;
+    }
+
+    .arrows{
+        margin-bottom: 15px !important;
     }
 }
