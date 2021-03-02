@@ -7,7 +7,7 @@ $monthName = require_once '../../src/get-month-name.php';
 
 <main>
     <section class="container-section">
-        <div class="container-center">
+        <div class="container-center" style="padding: 40px 0 0 0">
             <hr>
             <h2 class="main-heading">Цены на <?= date("d ${monthName} Y") ?> года</h2>
             <hr>
@@ -124,7 +124,7 @@ $monthName = require_once '../../src/get-month-name.php';
             <div class="messengers" style="margin-top: 10px">
                 <hr>
                 <h2 class="contact-heading">Или вы можете написать нам</h2>
-                <hr>
+                <hr style="margin-bottom: 20px">
                 <div class="messenger">
                     <img src="public/images/messengers/viber.png" alt="Viber" title="Viber">
                     <a href="viber://chat?number=380636364260">Написать в Viber</a>

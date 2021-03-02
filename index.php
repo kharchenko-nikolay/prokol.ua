@@ -1,5 +1,4 @@
 <?php require_once 'public/include/header.php'; ?>
-
 <main>
     <div class="pipe-vertical-left"></div>
     <div class="pipe-vertical-right"></div>
