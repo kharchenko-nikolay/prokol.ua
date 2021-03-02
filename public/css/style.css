@@ -343,23 +343,37 @@ div.carousel-images{
 }
 
 .arrows{
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 
 img.arrow-left{
     transform: scale(-1,-1);
-    width: 70px;
+    width: 60px;
     margin-right: 40px;
 }
 
 img.arrow-right{
-    width: 70px;
+    width: 60px;
     margin-left: 40px;
+}
+
+.points{
+    height: 50px;
 }
 
 .transition{
     transition-property: width;
     transition-duration: .1s;
+}
+
+.arrow-left:hover,
+.arrow-right:hover{
+    box-shadow: 0 0 10px gray;
+    border-radius: 100%;
 }
 
 .arrow-left:active,
@@ -541,6 +555,11 @@ td{
     .menu > li > a{
         font-size: 22px;
     }
+
+    .carousel-images > img {
+        width: 70%;
+        height: 500px;
+    }
 }
 
 /* Для экранов <= 1350 пикселей */
@@ -621,13 +640,17 @@ td{
     }
 
     .arrow-left{
-        width: 60px !important;
+        width: 50px !important;
         margin-right: 20px !important;
     }
 
     .arrow-right{
-        width: 60px !important;
+        width: 50px !important;
         margin-left: 20px !important;
+    }
+
+    .points{
+        height: 40px;
     }
 
     .flex-container{

@@ -134,18 +134,26 @@
             <hr>
             <div class="container-carousel">
                 <div class="carousel-images">
-                    <img src="public/images/photos-of-works/vrezka.jpg" alt="">
-                    <img src="public/images/photos-of-works/kanalizaciya.jpg" alt="" hidden>
-                    <img src="public/images/photos-of-works/montag-vodoprovoda.jpg" alt="" hidden>
-                    <img src="public/images/photos-of-works/prokol.jpg" alt="" hidden>
-                    <img src="public/images/photos-of-works/sanaciya.jpg" alt="" hidden>
-                    <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg" alt="" hidden>
+                    <img src="public/images/photos-of-works/vrezka.jpg"
+                         alt="Врезки в водопровод" title="Врезки в водопровод">
+                    <img src="public/images/photos-of-works/kanalizaciya.jpg"
+                         alt="Прокладка канализации" title="Прокладка канализации" hidden>
+                    <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
+                         alt="Монтаж водопровода" title="Монтаж водопровода" hidden>
+                    <img src="public/images/photos-of-works/prokol.jpg"
+                         alt="Прокол грунта" title="Прокол грунта" hidden>
+                    <img src="public/images/photos-of-works/sanaciya.jpg"
+                         alt="Протяжка трубы в трубу" title="Протяжка трубы в трубу" hidden>
+                    <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
+                         alt="Замена водопровода в доме" title="Замена водопровода в частном секторе" hidden>
                 </div>
                 <div class="arrows">
-                    <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
-                    <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
+                    <img src="public/images/arrow.png" class="arrow-left transition" alt="Стрелка влево">
+                    <img src="public/images/points.png" alt="points" class="points">
+                    <img src="public/images/arrow.png" class="arrow-right transition" alt="Стрелка вправо">
                 </div>
             </div>
+            <hr style="margin-bottom: 30px">
             <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
         </div>
     </section>
