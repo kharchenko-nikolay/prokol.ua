@@ -1,4 +1,5 @@
 <?php require_once 'public/include/header.php'; ?>
+
 <main>
     <div class="pipe-vertical-left"></div>
     <div class="pipe-vertical-right"></div>
@@ -132,7 +133,6 @@
             <h2 class="main-heading">Выполненные работы</h2>
             <hr>
             <div class="container-carousel">
-                <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
                 <div class="carousel-images">
                     <img src="public/images/photos-of-works/vrezka.jpg" alt="">
                     <img src="public/images/photos-of-works/kanalizaciya.jpg" alt="" hidden>
@@ -141,7 +141,10 @@
                     <img src="public/images/photos-of-works/sanaciya.jpg" alt="" hidden>
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg" alt="" hidden>
                 </div>
-                <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
+                <div class="arrows">
+                    <img src="public/images/arrow.png" class="arrow-left transition" alt="стрелка влево">
+                    <img src="public/images/arrow.png" class="arrow-right transition" alt="стрелка вправо">
+                </div>
             </div>
             <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
         </div>
@@ -153,7 +156,3 @@
 <script src="public/js/carousel.js"></script>
 </body>
 </html>
-
-
-
-

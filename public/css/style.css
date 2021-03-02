@@ -46,14 +46,14 @@ div.pipe-vertical-right {
 }
 
 div.flex-container{
-    padding-top: 40px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 div.container-center{
-    padding: 40px 0;
+    padding: 30px 0;
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -319,20 +319,17 @@ div.wrapper-advantage{
 
 .container-carousel{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 0;
+    flex-direction: column;
 }
 
 div.carousel-images{
     transition: all 1s ease-out;
-    width: 100%;
-
+    margin-top: 30px;
 }
 
 .carousel-images > img{
     object-fit: cover;
-    width: 84%;
+    width: 80%;
     height: 600px;
     border-radius: 5px;
     animation-name: carousel;
@@ -345,14 +342,19 @@ div.carousel-images{
     100% {opacity: 1}
 }
 
+.arrows{
+    margin-bottom: 30px;
+}
 
 img.arrow-left{
-    width: 8%;
     transform: scale(-1,-1);
+    width: 70px;
+    margin-right: 40px;
 }
 
 img.arrow-right{
-    width: 8%;
+    width: 70px;
+    margin-left: 40px;
 }
 
 .transition{
@@ -364,7 +366,6 @@ img.arrow-right{
 .arrow-right:active{
     border-radius: 100%;
     box-shadow: 0 0 10px black;
-    width: 7%;
 }
 
 /* ========================== СТИЛИ ДЛЯ ПОДВАЛА САЙТА ==========================*/
@@ -593,11 +594,6 @@ td{
         display: block;
     }
 
-    .arrow-right + a{
-        font-size: 20px;
-        padding: 5px 15px;
-    }
-
     #numbers > .phone > img{
         padding-right: 5px;
     }
@@ -608,9 +604,6 @@ td{
 
     th,td{
         font-size: 14px;
-    }
-    .container-article{
-        margin-top: 10px;
     }
 
     .container-article > img {
@@ -624,7 +617,17 @@ td{
 
     .carousel-images > img{
         height: 350px;
-        width: 95%;
+        width: 100%;
+    }
+
+    .arrow-left{
+        width: 60px !important;
+        margin-right: 20px !important;
+    }
+
+    .arrow-right{
+        width: 60px !important;
+        margin-left: 20px !important;
     }
 
     .flex-container{

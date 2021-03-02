@@ -9,8 +9,8 @@
                 <hr>
                 <h2 class="main-heading">Виды выполняемых работ</h2>
                 <hr>
-                <article style="padding-top: 10px">
-                    <div class="container-article">
+                <article>
+                    <div class="container-article" style="margin-top: 20px">
                         <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                              alt="Водопровод в доме" title="Водопровод в доме">
                         <h3>Замена труб в частном доме</h3>

@@ -7,11 +7,11 @@ $monthName = require_once '../../src/get-month-name.php';
 
 <main>
     <section class="container-section">
-        <div class="container-center" style="padding: 40px 0 0 0">
+        <div class="container-center">
             <hr>
             <h2 class="main-heading">Цены на <?= date("d ${monthName} Y") ?> года</h2>
             <hr>
-            <table>
+            <table style="margin-bottom: 0">
                 <thead>
                 <tr>
                     <th>Вид работы</th>
