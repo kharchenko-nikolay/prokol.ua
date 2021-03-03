@@ -1,8 +1,18 @@
-<?php require_once '../include/header.php'; ?>
+<?php require_once '../include/header-part-one.php'; ?>
+
+    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации)</title>
+    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
+        Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
+        водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
+        монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
+
+<?php require_once '../include/header-part-two.php'; ?>
 
 <main>
     <section class="container-section">
         <div class="container-center">
+
             <div class="contacts">
                 <hr>
                 <h2 class="contact-heading">Нажмите на номер чтобы позвонить</h2>
@@ -21,6 +31,7 @@
                     <a href="tel:+380636364260">050 684 4905</a>
                 </div>
             </div>
+
             <div class="messengers" style="margin-top: 10px">
                 <hr>
                 <h2 class="contact-heading">Вы можете написать нам в чат</h2>
@@ -38,6 +49,7 @@
                     <a href="https://wa.me/380636364260">Написать в Whatsapp</a>
                 </div>
             </div>
+
             <div class="contacts" style="margin-top: 15px">
                 <hr>
                 <h2 class="contact-heading">Почта</h2>
@@ -46,7 +58,8 @@
                     <a href="mailto:dneprokol@gmail.com" style="margin-top: 25px">dneprokol@gmail.com</a>
                 </div>
             </div>
-        </div>
+
+        </div><!-- container-center -->
     </section>
 </main>
 

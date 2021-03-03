@@ -1,6 +1,15 @@
+<?php require_once '../include/header-part-one.php'; ?>
+
+    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации)</title>
+    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
+        Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
+        водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
+        монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
+
 <?php
 
-require_once '../include/header.php';
+require_once '../include/header-part-two.php';
 $monthName = require_once '../../src/get-month-name.php';
 
 ?>
@@ -11,6 +20,7 @@ $monthName = require_once '../../src/get-month-name.php';
             <hr>
             <h2 class="main-heading">Цены на <?= date("d ${monthName} Y") ?> года</h2>
             <hr>
+
             <table style="margin-bottom: 0">
                 <thead>
                 <tr>
@@ -19,6 +29,7 @@ $monthName = require_once '../../src/get-month-name.php';
                     <th>Цена</th>
                 </tr>
                 </thead>
+
                 <tbody>
                 <tr>
                     <td>Прокол грунта &#8960; 25</td>
@@ -99,10 +110,12 @@ $monthName = require_once '../../src/get-month-name.php';
                 </tr>
                 </tbody>
             </table>
-        </div>
+        </div><!-- container-center -->
     </section>
+
     <section class="container-section">
         <div class="container-center">
+
             <div class="contacts">
                 <hr>
                 <h2 class="contact-heading">Звоните чтобы узнать более точную информацию</h2>
@@ -121,6 +134,7 @@ $monthName = require_once '../../src/get-month-name.php';
                     <a href="tel:+380636364260">050 684 4905</a>
                 </div>
             </div>
+
             <div class="messengers" style="margin-top: 10px">
                 <hr>
                 <h2 class="contact-heading">Или вы можете написать нам</h2>
@@ -138,7 +152,8 @@ $monthName = require_once '../../src/get-month-name.php';
                     <a href="https://wa.me/380636364260">Написать в Whatsapp</a>
                 </div>
             </div>
-        </div>
+
+        </div><!-- container-center -->
     </section>
 </main>
 

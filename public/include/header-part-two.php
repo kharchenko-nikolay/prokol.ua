@@ -1,26 +1,17 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации) prokol.ua</title>
-    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
-    Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
-    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
-    водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
-    монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
     <link rel="icon" href="public/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="public/css/style.css" type="text/css">
 </head>
+
 <body>
+
 <header>
     <img src="public/images/header.jpg" alt="header">
-    <img src="public/images/sun.png" alt="sun" class="sun-img">
-    <a href="/" class="logo-text">
+    <img class="sun-img" src="public/images/sun.png" alt="sun">
+
+    <a class="logo-text" href="/">
         <h1>Прокол под дорогой<br>Монтаж водопровода</h1>
     </a>
+
     <div class="messengers-header">
         <a href="https://wa.me/380636364260">
             <img src="public/images/messengers/whatsapp.png" alt="Whatsapp" title="Whatsapp">
@@ -32,6 +23,7 @@
             <img src="public/images/messengers/viber.png" alt="Viber" title="Viber">
         </a>
     </div>
+
     <div class="phones">
         <address style="color: #3b3b3b;">г. Днепр</address>
         <div class="phone" style="margin-top: 5px;">
@@ -48,6 +40,7 @@
         </div>
         <button class="btn-call-order">Заказать звонок</button>
     </div>
+
     <nav class="main-menu">
         <ul class="menu">
             <li><a class="menu-item" href="/">Главная</a></li>

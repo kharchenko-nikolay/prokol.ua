@@ -1,9 +1,20 @@
-<?php require_once '../include/header.php'; ?>
+<?php require_once '../include/header-part-one.php'; ?>
+
+    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации)</title>
+    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
+        Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
+        водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
+        монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
+
+<?php require_once '../include/header-part-two.php'; ?>
 
 <main>
     <div class="pipe-vertical-left"></div>
     <div class="pipe-vertical-right"></div>
+
     <section>
+
         <div class="container-section" id="zamena-trub">
             <div class="container-center">
                 <hr>
@@ -21,6 +32,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section" id="kanalizaciya">
             <div class="container-center">
                 <article>
@@ -36,6 +48,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section" id="montag-trub">
             <div class="container-center">
                 <article>
@@ -50,6 +63,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section" id="vrezki">
             <div class="container-center">
                 <article>
@@ -64,6 +78,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section">
             <div class="container-center">
                 <article>
@@ -77,6 +92,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section" id="prokol">
             <div class="container-center">
                 <article>
@@ -93,6 +109,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section" id="sanaciya">
             <div class="container-center">
                 <article>
@@ -108,6 +125,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section">
             <div class="container-center">
                 <article>
@@ -122,6 +140,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section">
             <div class="container-center">
                 <article>
@@ -137,6 +156,7 @@
                 </article>
             </div>
         </div>
+
         <div class="container-section">
             <div class="container-center">
                 <article>
@@ -151,6 +171,7 @@
                 </article>
             </div>
         </div>
+
     </section>
 </main>
 

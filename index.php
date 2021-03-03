@@ -1,14 +1,25 @@
-<?php require_once 'public/include/header.php'; ?>
+<?php require_once 'public/include/header-part-one.php'; ?>
+
+    <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации)</title>
+    <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
+        Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
+        водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
+        монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
+
+<?php require_once 'public/include/header-part-two.php'; ?>
 
 <main>
     <div class="pipe-vertical-left"></div>
     <div class="pipe-vertical-right"></div>
+
     <section class="container-section">
         <div class="container-center">
             <hr>
             <h2 class="main-heading">Виды выполняемых работ</h2>
             <hr>
             <div class="flex-container">
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/prokol.jpg"
                          alt="Прокол грунта под дорогой, прокол под землей"
@@ -19,6 +30,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
                          alt="Монтаж труб водопровода наружных сетей"
@@ -29,6 +41,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                          alt="Замена труб в частном доме и подвалах многоэтажек"
@@ -39,6 +52,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/kanalizaciya.jpg"
                          alt="Монтаж труб наружной канализации"
@@ -49,6 +63,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/vrezka.jpg"
                          alt="Врезка в водопроводную трубу под давлением"
@@ -59,6 +74,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="wrapper-type-work">
                     <img src="public/images/photos-of-works/sanaciya.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
@@ -69,16 +85,19 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <a href="vidy-rabot" class="detail">Подробнее</a>
-        </div>
+
+            </div><!-- flex-container -->
+            <a class="detail" href="vidy-rabot">Подробнее</a>
+        </div><!-- container-center -->
     </section>
+
     <section class="container-section">
         <div class="container-center">
             <hr>
             <h2 class="main-heading">Наши преимущества</h2>
             <hr>
             <div class="flex-container">
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/quality.png" alt="Качество работ">
@@ -86,6 +105,7 @@
                     <p><b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале</p>
                 </div>
                 <hr hidden>
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/terms.png" alt="Сроки выполнения">
@@ -94,6 +114,7 @@
                         быстро, обычно это 1 - 2 дня</p>
                 </div>
                 <hr hidden>
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/warranty.png" alt="Гарантия выполненной работы">
@@ -102,6 +123,7 @@
                         мы никуда не пропадаем, в случае утечки приезжаем делаем</p>
                 </div>
                 <hr hidden>
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/master.png" alt="Выезд мастера бесплатный">
@@ -109,6 +131,7 @@
                     <p><b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно</p>
                 </div>
                 <hr hidden>
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/delivery.png" alt="Доставка материала бесплатно">
@@ -117,6 +140,7 @@
                         материал к объекту доставляем на своем авто бесплатно</p>
                 </div>
                 <hr hidden>
+
                 <div class="wrapper-advantage">
                     <div>
                         <img src="public/images/photos-of-works/key.png" alt="Работа под ключ">
@@ -124,14 +148,17 @@
                     <p><b>Выполненяем работу под ключ</b><br>
                         прокладываем трубы, подключаемся, ставим под давление проверяем</p>
                 </div>
-            </div>
-        </div>
+
+            </div><!-- flex-container -->
+        </div><!-- container-center -->
     </section>
+
     <section class="container-section">
         <div class="container-center">
             <hr>
             <h2 class="main-heading">Выполненные работы</h2>
             <hr>
+
             <div class="container-carousel">
                 <div class="carousel-images">
                     <img src="public/images/photos-of-works/vrezka.jpg"
@@ -147,20 +174,23 @@
                     <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
                          alt="Замена водопровода в доме" title="Замена водопровода в частном секторе" hidden>
                 </div>
+
                 <div class="arrows" style="margin-bottom: 5px">
                     <img src="public/images/arrow.png" class="arrow-left transition" alt="Стрелка влево">
                     <img src="public/images/points.png" alt="points" class="points">
                     <img src="public/images/arrow.png" class="arrow-right transition" alt="Стрелка вправо">
                 </div>
-            </div>
+            </div><!-- container-carousel -->
+
             <hr class="carousel-hr">
-            <a href="vypolnennye-raboty" class="detail">Посмотреть больше работ</a>
-        </div>
+            <a class="detail" href="vypolnennye-raboty">Посмотреть больше работ</a>
+        </div><!-- container-center -->
     </section>
 </main>
 
 <?php require_once 'public/include/footer.php'; ?>
 
 <script src="public/js/carousel.js"></script>
+
 </body>
 </html>

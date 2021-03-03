@@ -103,6 +103,7 @@ header{
 
 img[alt="header"]{
     width: 100%;
+    display: block;
 }
 
 h1{
@@ -198,7 +199,6 @@ div.phone{
 /* ========================== СТИЛИ ДЛЯ ВЕРХНЕГО МЕНЮ ==========================*/
 
 nav.main-menu{
-    margin-top: -4px;
     font-family: "Cuprum-Italic", sans-serif;
     display: flex;
     align-items: center;
@@ -616,12 +616,16 @@ td{
     }
 
     .logo-text{
-        font-size: 15px !important;
+        font-size: 3.3vw !important;
+        text-shadow: none !important;
+        font-weight: bold !important;
+        color: rgba(0,0,0,.8) !important;
     }
 
     .sun-img{
         width: 6% !important;
         left: 78% !important;
+        top: 3%;
     }
 
     .menu > li > a{
