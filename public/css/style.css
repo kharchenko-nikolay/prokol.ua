@@ -215,14 +215,9 @@ ul.menu{
     justify-content: space-around;
 }
 
-.menu > li > a{
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-}
-
-.active{
-    color: #bb0053;
+.active > a{
+    color: #fff !important;
+    text-shadow: 2px 2px 1px black;
 }
 
 /* Для плавного подчеркивания ссылки верхнего меню при наведении */
@@ -239,6 +234,12 @@ ul.menu{
 
 .menu-item{
     position: relative;
+    font-size: 24px;
+}
+
+.menu-item > a{
+    text-decoration: none;
+    color: black;
 }
 
 .menu-item:hover:after,

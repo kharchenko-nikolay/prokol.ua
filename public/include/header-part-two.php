@@ -43,11 +43,21 @@
 
     <nav class="main-menu">
         <ul class="menu">
-            <li><a class="menu-item" href="/">Главная</a></li>
-            <li><a class="menu-item" href="vidy-rabot">Виды работ</a></li>
-            <li><a class="menu-item" href="vypolnennye-raboty">Выполненные работы</a></li>
-            <li><a class="menu-item" href="kontakty">Контакты</a></li>
-            <li><a class="menu-item" href="ceny">Цены</a></li>
+            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/') echo 'active'; ?>">
+                <a href="/">Главная</a>
+            </li>
+            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/vidy-rabot') echo 'active'; ?>">
+                <a href="vidy-rabot">Виды работ</a>
+            </li>
+            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/vypolnennye-raboty') echo 'active'; ?>">
+                <a href="vypolnennye-raboty">Выполненные работы</a>
+            </li>
+            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/kontakty') echo 'active'; ?>">
+                <a href="kontakty">Контакты</a>
+            </li>
+            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/ceny') echo 'active'; ?>">
+                <a href="ceny">Цены</a>
+            </li>
         </ul>
     </nav>
 </header>
