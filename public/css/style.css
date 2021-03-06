@@ -65,7 +65,7 @@ a.detail{
     font-size: 22px;
     color: white;
     background-color: #1caa00;
-    padding: 4px 10px;
+    padding: 3px 10px;
     border-radius: 3px;
     border: 1px solid rgba(0,0,0,0.8);
     box-shadow: 0 0 5px black;
@@ -217,7 +217,7 @@ ul.menu{
 
 .active > a{
     color: #fff !important;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 0 0 2px black;
 }
 
 /* Для плавного подчеркивания ссылки верхнего меню при наведении */
@@ -547,6 +547,17 @@ td{
     margin-bottom: 10px;
     width: 70%;
 }
+
+/* ========================== СТИЛИ ДЛЯ СТРАНИЦЫ ВЫПОЛНЕННЫЕ РАБОТЫ ==========================*/
+
+.container-article > p{
+    margin-bottom: 20px;
+}
+
+.container-article > hr{
+    margin-top: 20px;
+}
+
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
 
 /* Для экранов <= 1650 пикселей */
@@ -655,6 +666,10 @@ td{
         font-size: 14px;
     }
 
+    .container-article{
+        margin-top: 20px;
+    }
+
     .container-article > img {
         width: 100%;
         height: 400px;
@@ -697,5 +712,9 @@ td{
 
     .arrows{
         margin-bottom: 15px !important;
+    }
+
+    .menu{
+        margin: 3px 0 10px 0;
     }
 }

@@ -7,12 +7,13 @@
         водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
         монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
 
-<?php require_once '../include/header-part-two.php'; ?>
+<?php
 
-<main>
-    <section>
+require_once '../include/header-part-two.php';
+require_once '../../src/get-work.php';
 
-    </section>
-</main>
+?>
+
+
 
 <?php require_once '../include/footer.php'; ?>

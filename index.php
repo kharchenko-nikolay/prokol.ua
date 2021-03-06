@@ -21,7 +21,7 @@
             <div class="flex-container">
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/prokol.jpg"
+                    <img src="public/images/types-works/prokol.jpg"
                          alt="Прокол грунта под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
                     <div>
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
+                    <img src="public/images/types-works/montag-vodoprovoda.jpg"
                          alt="Монтаж труб водопровода наружных сетей"
                          title="Монтаж водопровода">
                     <div>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
+                    <img src="public/images/types-works/vodoprovod-v-dome.jpg"
                          alt="Замена труб в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
                     <div>
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/kanalizaciya.jpg"
+                    <img src="public/images/types-works/kanalizaciya.jpg"
                          alt="Монтаж труб наружной канализации"
                          title="Монтаж канализации">
                     <div>
@@ -65,7 +65,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/vrezka.jpg"
+                    <img src="public/images/types-works/vrezka.jpg"
                          alt="Врезка в водопроводную трубу под давлением"
                          title="Врезка в водопровод">
                     <div>
@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/photos-of-works/sanaciya.jpg"
+                    <img src="public/images/types-works/sanaciya.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
                     <div>
@@ -100,7 +100,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/quality.png" alt="Качество работ">
+                        <img src="public/images/advantages/quality.png" alt="Качество работ">
                     </div>
                     <p><b>Качество работ гарантируем</b><br>большой опыт так как работаем в водоканале</p>
                 </div>
@@ -108,7 +108,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/terms.png" alt="Сроки выполнения">
+                        <img src="public/images/advantages/terms.png" alt="Сроки выполнения">
                     </div>
                     <p><b>Сроки выполнения</b><br>работу стараемся выполнять по максимуму<br>
                         быстро, обычно это 1 - 2 дня</p>
@@ -117,7 +117,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/warranty.png" alt="Гарантия выполненной работы">
+                        <img src="public/images/advantages/warranty.png" alt="Гарантия выполненной работы">
                     </div>
                     <p><b>Гарантия выполненной работы</b><br>
                         мы никуда не пропадаем, в случае утечки приезжаем делаем</p>
@@ -126,7 +126,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/master.png" alt="Выезд мастера бесплатный">
+                        <img src="public/images/advantages/master.png" alt="Выезд мастера бесплатный">
                     </div>
                     <p><b>Выезд мастера бесплатный</b><br>мастер выезжает на осмотр объекта бесплатно</p>
                 </div>
@@ -134,7 +134,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/delivery.png" alt="Доставка материала бесплатно">
+                        <img src="public/images/advantages/delivery.png" alt="Доставка материала бесплатно">
                     </div>
                     <p><b>Доставка материала бесплатно</b><br>
                         материал к объекту доставляем на своем авто бесплатно</p>
@@ -143,7 +143,7 @@
 
                 <div class="wrapper-advantage">
                     <div>
-                        <img src="public/images/photos-of-works/key.png" alt="Работа под ключ">
+                        <img src="public/images/advantages/key.png" alt="Работа под ключ">
                     </div>
                     <p><b>Выполненяем работу под ключ</b><br>
                         прокладываем трубы, подключаемся, ставим под давление проверяем</p>
@@ -161,18 +161,8 @@
 
             <div class="container-carousel">
                 <div class="carousel-images">
-                    <img src="public/images/photos-of-works/vrezka.jpg"
-                         alt="Врезки в водопровод" title="Врезки в водопровод">
-                    <img src="public/images/photos-of-works/kanalizaciya.jpg"
-                         alt="Прокладка канализации" title="Прокладка канализации" hidden>
-                    <img src="public/images/photos-of-works/montag-vodoprovoda.jpg"
-                         alt="Монтаж водопровода" title="Монтаж водопровода" hidden>
-                    <img src="public/images/photos-of-works/prokol.jpg"
-                         alt="Прокол грунта" title="Прокол грунта" hidden>
-                    <img src="public/images/photos-of-works/sanaciya.jpg"
-                         alt="Протяжка трубы в трубу" title="Протяжка трубы в трубу" hidden>
-                    <img src="public/images/photos-of-works/vodoprovod-v-dome.jpg"
-                         alt="Замена водопровода в доме" title="Замена водопровода в частном секторе" hidden>
+                    <!-- Получение всех фотографий из папки с выполненными работами -->
+                    <?php require_once 'src/get-photo-of-works.php'; ?>
                 </div>
 
                 <div class="arrows" style="margin-bottom: 5px">

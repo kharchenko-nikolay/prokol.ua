@@ -10,6 +10,10 @@
     const firstImage = 0;
     const numberImages = GUI.carouselImages.length;
 
+    //Так как все картинки в карусели изначально с атрибутом hidden,
+    //у первой картинки убираю атрибут чтобы отобразилась в карусели
+    GUI.carouselImages[0].removeAttribute('hidden');
+
     // Обработчик события нажатия на стрелку вправо
     GUI.arrowRight.onclick = () => {
         if(indexImage !== numberImages - 1){
