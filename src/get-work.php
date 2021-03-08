@@ -1,50 +1,54 @@
 <?php
 
-$config = require_once 'database/configDb.php';
+require_once 'database/ConnectDB.php';
+require_once 'database/Works.php';
+$configDb = require_once 'database/configDB.php';
 
-$dsn = "mysql:host={$config['host']};dbname={$config['database']}";
+$connectDB = new ConnectDB($configDb);
+$pdo = $connectDB->getPDO();
 
-$options = [
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
-];
+$works = new Works($pdo);
 
-$pdo = new PDO($dsn, $config['user'], $config['password'], $options);
+//Запрос на выборку из одной таблицы данных о статье и из второй таблицы одно фото для этой статьи
+$queryString = 'SELECT `heading`,`description`,`page_file_name`,`number_views`,`create_date`,
+                (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
+                AS `photo_name` FROM `completed_works` `cw`';
 
-$stmt = $pdo->query('SELECT * FROM `completed_works`');
+$works = $works->getAllWorks($queryString);
 
-var_dump($stmt->fetchAll());
-
-exit;
-
-$arr = [1,2,3,4,5];
-$heading = false;
+$mainHeading = false;
 
 $html = '<main>
             <div class="pipe-vertical-left"></div>
             <div class="pipe-vertical-right"></div>
             <section>';
 
-foreach($arr as $i){
+//Собирает html с короткими статьями о работах для страницы Выполненные работы
+foreach($works as $work){
     $html .= '<div class="container-section">
                  <div class="container-center">';
 
-    if(!$heading){
+    if($mainHeading === false){
         $html .= '<hr><h2 class="main-heading">Выполненные работы</h2><hr>';
-        $heading = true;
+        $mainHeading = true;
     }
 
-    $html .= '<article class="container-article">
-                        <img src="public/images/photo-works/vodoprovod-v-dome.jpg"
-                             alt="Водопровод в доме" title="Водопровод в доме">
-                        <h3>Заменили трубы в частном секторе на новые пластиковые</h3>
-                        <p>Поменяли старый водопровод на новую трубу пнд диаметром 32 длинной 27 метров</p>
-                        <a class="detail" href="/">Подробнее</a>
+    $titleImg = stristr($work['photo_name'], '.', true);
+
+    $html .= "<article class='container-article'>
+                        <div class='article-info'>
+                            <time datetime='{$work['create_date']}'>Дата создания: {$work['create_date']}</time>
+                            <span>Количество просмотров: {$work['number_views']}</span>
+                        </div>
+                        <img src='public/images/types-works/{$work['photo_name']}'
+                             alt='$titleImg' title='$titleImg'>
+                        <h3>{$work['heading']}</h3>
+                        <p>{$work['description']}</p>
+                        <a class='detail' href='{$work['page_file_name']}'>Подробнее</a>
                         <hr>
                     </article>
                  </div>
-              </div>';
-
+              </div>";
 }
 
 $html .= '</section></main>';

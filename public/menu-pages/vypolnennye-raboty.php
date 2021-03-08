@@ -14,6 +14,4 @@ require_once '../../src/get-work.php';
 
 ?>
 
-
-
 <?php require_once '../include/footer.php'; ?>

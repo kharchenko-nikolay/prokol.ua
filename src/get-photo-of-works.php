@@ -3,7 +3,7 @@
 $handle = opendir('public/images/types-works');
 $html = '';
 
-//Собирает из папки все пути фотографий, для вывода на главной странице в карусели
+//Собирает из папки все фотографии, для вывода на главной странице в карусели
 while(($imageName = readdir($handle)) !== false){
 
     if($imageName === '..' || $imageName === '.') continue;
