@@ -8,7 +8,7 @@ $connectDb = new ConnectDb($configDb);
 $pdo = $connectDb->getPDO();
 
 $works = new Works($pdo);
-
+//
 //Запрос на выборку из одной таблицы данных о статье и из второй таблицы одно фото для этой статьи
 $queryString = 'SELECT `heading`,`description`,`page_file_name`,`number_views`,`create_date`,
                 (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
