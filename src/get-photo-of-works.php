@@ -4,13 +4,13 @@ $handle = opendir('public/images/types-works');
 $html = '';
 
 //Собирает из папки все фотографии, для вывода на главной странице в карусели
-while(($imageName = readdir($handle)) !== false){
+while(($imgName = readdir($handle)) !== false){
 
-    if($imageName === '..' || $imageName === '.') continue;
+    if($imgName === '..' || $imgName === '.') continue;
 
-    $description = stristr($imageName, '.', true);
+    $imgTitle = stristr($imgName, '.', true);
 
-    $html .= "<img src='public/images/types-works/$imageName' alt='$description' title='$description' hidden>";
+    $html .= "<img src='public/images/types-works/$imgName' alt='$imgTitle' title='$imgTitle' hidden>";
 }
 
 closedir($handle);

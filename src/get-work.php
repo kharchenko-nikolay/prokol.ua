@@ -33,7 +33,7 @@ foreach($works as $work){
         $mainHeading = true;
     }
 
-    $titleImg = stristr($work['photo_name'], '.', true);
+    $imgTitle = stristr($work['photo_name'], '.', true);
 
     $html .= "<article class='container-article'>
                         <div class='article-info'>
@@ -41,7 +41,7 @@ foreach($works as $work){
                             <span>Количество просмотров: {$work['number_views']}</span>
                         </div>
                         <img src='public/images/types-works/{$work['photo_name']}'
-                             alt='$titleImg' title='$titleImg'>
+                             alt='$imgTitle' title='$imgTitle'>
                         <h3>{$work['heading']}</h3>
                         <p>{$work['description']}</p>
                         <a class='detail' href='{$work['page_file_name']}'>Подробнее</a>
