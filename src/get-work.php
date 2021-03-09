@@ -1,11 +1,11 @@
 <?php
 
-require_once 'database/ConnectDB.php';
+require_once 'database/ConnectDb.php';
 require_once 'database/Works.php';
-$configDb = require_once 'database/configDB.php';
+$configDb = require_once 'database/configDb.php';
 
-$connectDB = new ConnectDB($configDb);
-$pdo = $connectDB->getPDO();
+$connectDb = new ConnectDb($configDb);
+$pdo = $connectDb->getPDO();
 
 $works = new Works($pdo);
 

@@ -1,6 +1,6 @@
 <?php
 
-class ConnectDB
+class ConnectDb
 {
     private $dsn;
     private $pdo;
