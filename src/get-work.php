@@ -1,20 +1,20 @@
 <?php
 
 require_once 'database/ConnectDb.php';
-require_once 'database/Works.php';
+require_once 'database/Work.php';
 $configDb = require_once 'database/configDb.php';
 
 $connectDb = new ConnectDb($configDb);
 $pdo = $connectDb->getPDO();
 
-$works = new Works($pdo);
-//
-//Запрос на выборку из одной таблицы данных о статье и из второй таблицы одно фото для этой статьи
-$queryString = 'SELECT `heading`,`description`,`page_file_name`,`number_views`,`create_date`,
+$work = new Work($pdo);
+
+//Запрос на выборку всех статей о выполненных работах и по одному фото для каждой статьи
+$queryString = 'SELECT `heading`,`description`,`script_name`,`number_views`,`create_date`,
                 (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
                 AS `photo_name` FROM `completed_works` `cw`';
 
-$works = $works->getAllWorks($queryString);
+$works = $work->getAllWorks($queryString);
 
 $mainHeading = false;
 
@@ -44,7 +44,7 @@ foreach($works as $work){
                              alt='$imgTitle' title='$imgTitle'>
                         <h3>{$work['heading']}</h3>
                         <p>{$work['description']}</p>
-                        <a class='detail' href='{$work['page_file_name']}'>Подробнее</a>
+                        <a class='detail' href='vypolnennye-raboty/{$work['script_name']}'>Подробнее</a>
                         <hr>
                     </article>
                  </div>
