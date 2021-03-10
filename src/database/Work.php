@@ -16,12 +16,12 @@ class Work
     }
 
     //Возвращает массив с данными об одной работе из базы данных
-    public function getWork(string $scriptName) : array
+    public function getWork(string $pageName) : array
     {
-        $scriptName = baseName($scriptName);
+        $scriptName = baseName($pageName);
 
-        $queryString = "SELECT `id`,`heading`,`description`,`script_name`,`number_views`,`create_date`
-                        FROM `completed_works` WHERE `script_name` = '$scriptName'";
+        $queryString = "SELECT `id`,`heading`,`description`,`number_views`,`create_date`
+                        FROM `completed_works` WHERE `page_name` = '$pageName'";
 
         $work = $this->pdo->query($queryString)->fetch();
 
