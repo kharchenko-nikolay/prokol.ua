@@ -49,7 +49,8 @@
             <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/vidy-rabot') echo 'active'; ?>">
                 <a href="/vidy-rabot">Виды работ</a>
             </li>
-            <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/vypolnennye-raboty') echo 'active'; ?>">
+            <li class="menu-item
+            <?php if(preg_match('/vypolnennye-raboty/', $_SERVER['REQUEST_URI'])) echo 'active'; ?>">
                 <a href="/vypolnennye-raboty">Выполненные работы</a>
             </li>
             <li class="menu-item <?php if($_SERVER['REQUEST_URI'] == '/kontakty') echo 'active'; ?>">

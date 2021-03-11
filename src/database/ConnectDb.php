@@ -8,7 +8,7 @@ class ConnectDb
 
     public function __construct(array $configDb)
     {
-        $this->dsn = "mysql:host={$configDb['host']};dbname={$configDb['database']}";
+        $this->dsn = "mysql:host={$configDb['host']};dbname={$configDb['database']};charset=utf8mb4";
 
         $this->options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

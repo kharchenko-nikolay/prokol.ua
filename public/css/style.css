@@ -678,6 +678,12 @@ td{
         margin-top: 20px;
     }
 
+    .article-info{
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
     .container-article > img {
         width: 100%;
         height: 400px;

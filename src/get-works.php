@@ -10,7 +10,7 @@ $pdo = $connectDb->getPDO();
 $work = new Work($pdo);
 
 //Запрос на выборку всех статей о выполненных работах и по одному фото для каждой статьи
-$queryString = 'SELECT `heading`,`description`,`page_name`,`number_views`,`create_date`,
+$queryString = 'SELECT `id`,`heading`,`description`,`page_name`,`number_views`,`create_date`,
                 (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
                 AS `photo_name` FROM `completed_works` `cw`';
 
@@ -25,8 +25,8 @@ $html = '<main>
 
 //Собирает html с короткими статьями о работах для страницы Выполненные работы
 foreach($works as $work){
-    $html .= '<div class="container-section">
-                 <div class="container-center">';
+    $html .= "<div class='container-section' id='{$work['id']}'>
+                 <div class='container-center'>";
 
     if($mainHeading === false){
         $html .= '<hr><h2 class="main-heading">Выполненные работы</h2><hr>';
@@ -44,8 +44,8 @@ foreach($works as $work){
                              alt='$imgTitle' title='$imgTitle'>
                         <h3>{$work['heading']}</h3>
                         <p>{$work['description']}</p>
+                        <hr style='margin-bottom: 30px'>
                         <a class='detail' href='vypolnennye-raboty/{$work['page_name']}'>Подробнее</a>
-                        <hr>
                     </article>
                  </div>
               </div>";

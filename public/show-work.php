@@ -46,13 +46,13 @@ $work = $work->getWork($pageName);
                         $imgTitle = stristr($photo['photo_name'], '.', true);
 
                         echo "<img src='/public/images/types-works/{$photo['photo_name']}'
-                                   alt='$imgTitle' title='$imgTitle'>";
+                                   alt='$imgTitle' title='$imgTitle' style='margin-bottom: 15px'>";
                     }
-
                     ?>
 
                     <p><?= $work['description'] ?></p>
-                    <hr>
+                    <hr style="margin-bottom: 30px">
+                    <a class="detail" href="/vypolnennye-raboty#<?= $work['id'] ?>">Вернуться назад</a>
                 </article>
             </div>
         </div>

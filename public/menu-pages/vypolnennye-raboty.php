@@ -10,8 +10,11 @@
 <?php
 
 require_once '../include/header-part-two.php';
-require_once '../../src/get-work.php';
+require_once '../../src/get-works.php';
 
 ?>
 
 <?php require_once '../include/footer.php'; ?>
+
+</body>
+</html>
