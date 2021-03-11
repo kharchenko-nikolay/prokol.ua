@@ -11,7 +11,9 @@ $pdo = $connectDb->getPDO();
 $work = new Work($pdo);
 
 $pageName = basename($_SERVER["REQUEST_URI"]);
-$work = $work->getWork($pageName);
+$workData = $work->getWork($pageName);
+
+$work->incrementNumberViews((int)$workData['number_views']);
 
 ?>
 
@@ -31,17 +33,17 @@ $work = $work->getWork($pageName);
         <div class="container-section">
             <div class="container-center">
                 <hr>
-                <h2 class="main-heading"><?= $work['heading'] ?></h2>
+                <h2 class="main-heading"><?= $workData['heading'] ?></h2>
                 <hr>
                 <article class='container-article'>
                     <div class='article-info'>
-                        <time datetime='<?= $work['create_date'] ?>'>Дата создания: <?= $work['create_date'] ?></time>
-                        <span>Количество просмотров: <?= $work['number_views'] ?></span>
+                        <time datetime='<?= $workData['create_date'] ?>'>Дата: <?= $workData['create_date'] ?></time>
+                        <span>Просмотры: <?= $workData['number_views'] ?></span>
                     </div>
 
                     <?php
                     //Вывод всех фотографий статьи
-                    foreach ($work['photos'] as $photo){
+                    foreach ($workData['photos'] as $photo){
 
                         $imgTitle = stristr($photo['photo_name'], '.', true);
 
@@ -50,9 +52,9 @@ $work = $work->getWork($pageName);
                     }
                     ?>
 
-                    <p><?= $work['description'] ?></p>
+                    <p><?= $workData['description'] ?></p>
                     <hr style="margin-bottom: 30px">
-                    <a class="detail" href="/vypolnennye-raboty#<?= $work['id'] ?>">Вернуться назад</a>
+                    <a class="detail" href="/vypolnennye-raboty#<?= $workData['id'] ?>">Вернуться назад</a>
                 </article>
             </div>
         </div>

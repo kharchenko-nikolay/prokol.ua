@@ -37,8 +37,8 @@ foreach($works as $work){
 
     $html .= "<article class='container-article'>
                         <div class='article-info'>
-                            <time datetime='{$work['create_date']}'>Дата создания: {$work['create_date']}</time>
-                            <span>Количество просмотров: {$work['number_views']}</span>
+                            <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
+                            <span>Просмотры: {$work['number_views']}</span>
                         </div>
                         <img src='public/images/types-works/{$work['photo_name']}'
                              alt='$imgTitle' title='$imgTitle'>
