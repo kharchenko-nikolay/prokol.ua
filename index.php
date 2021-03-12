@@ -2,10 +2,9 @@
 
     <title>Прокол Под Дорогой в Днепре (Монтаж Водопровода и Канализации)</title>
     <meta name="description" content="Прокол под дорогой. Монтаж водопровода и канализации.
-        Врезки под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
-    <meta name="keywords" content="прокол под дорогой, прокол под землей, прокладка труб, монтаж систем
-        водоснабжения, монтаж водопровода в частном доме, врезка под давлением, монтаж водопровода,
-        монтаж канализации, прокладка водопроводных труб, врезка в трубу, ремонт водопровода">
+    Врезка в трубу под давлением. Бесплатный выезд мастера. Низкие цены. Звоните (063) 636-42-60">
+    <meta name="keywords" content="прокол под дорогой, укладка труб в траншею цена, врезка в водопровод,
+    монтаж водопровода, канализация">
 
 <?php require_once 'public/include/header-part-two.php'; ?>
 
@@ -22,55 +21,55 @@
 
                 <div class="wrapper-type-work">
                     <img src="public/images/types-works/prokol.jpg"
-                         alt="Прокол грунта под дорогой, прокол под землей"
+                         alt="Прокол под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
                     <div>
                         <a href="vidy-rabot#prokol">
-                            <h3>Прокол грунта под дорогой</h3>
+                            <h3>Прокол под дорогой</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
                     <img src="public/images/types-works/montag-vodoprovoda.jpg"
-                         alt="Монтаж труб водопровода наружных сетей"
+                         alt="Монтаж водопровода"
                          title="Монтаж водопровода">
                     <div>
                         <a href="vidy-rabot#montag-trub">
-                            <h3>Монтаж труб наружного водопровода</h3>
+                            <h3>Монтаж водопровода</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
                     <img src="public/images/types-works/vodoprovod-v-dome.jpg"
-                         alt="Замена труб в частном доме и подвалах многоэтажек"
+                         alt="Водопровод в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
                     <div>
                         <a href="vidy-rabot#zamena-trub">
-                            <h3>Замена труб в частном доме</h3>
+                            <h3>Водопровод в частном доме</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
                     <img src="public/images/types-works/kanalizaciya.jpg"
-                         alt="Монтаж труб наружной канализации"
+                         alt="Монтаж канализации"
                          title="Монтаж канализации">
                     <div>
                         <a href="vidy-rabot#kanalizaciya">
-                            <h3>Прокладка наружной канализации</h3>
+                            <h3>Монтаж канализации</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
                     <img src="public/images/types-works/vrezka.jpg"
-                         alt="Врезка в водопроводную трубу под давлением"
+                         alt="Врезка в водопровод"
                          title="Врезка в водопровод">
                     <div>
                         <a href="vidy-rabot#vrezki">
-                            <h3>Врезки в водопровод под давлением</h3>
+                            <h3>Врезка в трубу под давлением</h3>
                         </a>
                     </div>
                 </div>
@@ -81,7 +80,7 @@
                          title="Протяжка трубы в трубу">
                     <div>
                         <a href="vidy-rabot#sanaciya">
-                            <h3>Санация, протяжка трубы в трубу</h3>
+                            <h3>Санация трубопроводов, протяжка трубы в трубу</h3>
                         </a>
                     </div>
                 </div>
@@ -167,7 +166,7 @@
 
                 <div class="arrows" style="margin-bottom: 5px">
                     <img src="public/images/arrow.png" class="arrow-left transition" alt="Стрелка влево">
-                    <img src="public/images/points.png" alt="points" class="points">
+                    <img src="public/images/points.png" class="points" alt="points">
                     <img src="public/images/arrow.png" class="arrow-right transition" alt="Стрелка вправо">
                 </div>
             </div><!-- container-carousel -->
