@@ -249,7 +249,7 @@ ul.menu{
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА ВИДЫ ВЫПОЛНЯЕМЫХ РАБОТ ==========================*/
 
-div.wrapper-type-work{
+.wrapper-type-work{
     width: 500px;
     height: 400px;
     margin-bottom: 40px;
@@ -280,9 +280,9 @@ div.wrapper-type-work{
 
 .wrapper-type-work > div > a > h3 {
     margin: 0;
-    font-size: 22px;
+    /*font-size: 1.1vw;*/
     font-family: "Cuprum", sans-serif;
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .wrapper-type-work > div > a > h3:hover{
@@ -292,7 +292,7 @@ div.wrapper-type-work{
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА НАШИ ПРЕИМУЩЕСТВА ==========================*/
 
-div.wrapper-advantage{
+.wrapper-advantage{
     width: 500px;
     height: 400px;
     text-align: center;
@@ -568,6 +568,15 @@ td{
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
 
+/* Для экранов <= 1820 пикселей */
+@media screen and (max-width: 1820px){
+    .wrapper-type-work,
+    .wrapper-advantage {
+        width: 450px;
+        height: 400px;
+    }
+}
+
 /* Для экранов <= 1650 пикселей */
 @media screen and (max-width: 1650px){
     div.phones{
@@ -580,8 +589,27 @@ td{
     }
 
     .carousel-images > img {
-        width: 70%;
+        width: 80%;
         height: 500px;
+    }
+
+    .wrapper-type-work,
+    .wrapper-advantage {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+/* Для экранов <= 1500 пикселей */
+@media screen and (max-width: 1500px){
+    .wrapper-type-work{
+        width: 350px;
+        height: 300px;
+    }
+
+    .wrapper-advantage {
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -599,6 +627,12 @@ td{
     .menu > li > a{
         font-size: 20px;
     }
+
+    .wrapper-type-work,
+    .wrapper-advantage {
+        width: 500px;
+        height: 450px;
+    }
 }
 
 /* Для экранов <= 1200 пикселей */
@@ -606,6 +640,10 @@ td{
     div.phones{
         top: 0.7%;
         right: 1.7%;
+    }
+
+    .wrapper-type-work > div > a > h3 {
+        font-size: 20px;
     }
 }
 
@@ -653,10 +691,6 @@ td{
     }
 
     /*====== ОСТАЛЬНЫЕ СТИЛИ ======*/
-
-    .wrapper-type-work > div > a > h3 {
-        font-size: 18px;
-    }
 
     footer > address, footer > span{
         display: none;
