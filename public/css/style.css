@@ -255,9 +255,11 @@ ul.menu{
     margin-bottom: 40px;
     border-radius: 5px;
     border-bottom: 1px solid rgba(0,0,0,0.7);
+    background: #da9e2b;
 }
 
 .wrapper-type-work > img{
+    display: block;
     width: 100%;
     height: 90%;
     object-fit: cover;
@@ -313,7 +315,7 @@ ul.menu{
 
 .wrapper-advantage > p{
     font-family: Cuprum, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* ========================== СТИЛИ ДЛЯ БЛОКА ВЫПОЛНЕННЫЕ РАБОТЫ ==========================*/
@@ -764,5 +766,9 @@ td{
 
     .menu{
         margin: 3px 0 10px 0;
+    }
+
+    .wrapper-advantage{
+        height: 400px;
     }
 }

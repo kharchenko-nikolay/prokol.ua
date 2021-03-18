@@ -10,10 +10,11 @@
 
 require_once '../include/header-part-two.php';
 require_once '../../src/get-works.php';
+require_once '../include/footer.php';
 
 ?>
 
-<?php require_once '../include/footer.php'; ?>
+<script src="/public/js/ajax.js"></script>
 
 </body>
 </html>

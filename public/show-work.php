@@ -13,8 +13,6 @@ $work = new Work($pdo);
 $pageName = basename($_SERVER["REQUEST_URI"]);
 $workData = $work->getWork($pageName);
 
-$work->incrementNumberViews((int)$workData['number_views']);
-
 ?>
 
     <title><?= $workData['heading'] ?></title>
@@ -51,14 +49,21 @@ $work->incrementNumberViews((int)$workData['number_views']);
 
                     <p><?= $workData['description'] ?></p>
                     <hr style="margin-bottom: 30px">
-                    <a class="detail" href="/vypolnennye-raboty#<?= $workData['id'] ?>">Вернуться назад</a>
+                    <a class="detail" href="/vypolnennye-raboty/<?= $workData['id'] ?>">
+                        Вернуться назад</a>
                 </article>
             </div>
         </div>
     </section>
 </main>
 
-<?php require_once 'include/footer.php'; ?>
+<?php
+
+//Увеличиваю количество просмотров статьи на +1 просмотр, запись в базу данных
+$work->incrementNumberViews((int)$workData['number_views']);
+require_once 'include/footer.php';
+
+?>
 
 </body>
 </html>
