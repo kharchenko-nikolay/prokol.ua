@@ -10,9 +10,15 @@ class Work
         $this->pdo = $pdo;
     }
 
-    //Возвращает массив работ, выборку из базы данных по запросу в параметре queryString
-    public function getAllWorks(string $queryString) : array
+    //Возвращает массив работ, выборку из базы данных по запросу queryString
+    public function getAllWorks(string $sqlCondition) : array
     {
+        $queryString = 'SELECT `id`,`heading`,`description`,`page_name`,`number_views`,`create_date`,
+                        (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
+                        AS `photo_name` FROM `completed_works` `cw` ';
+
+        $queryString .= $sqlCondition;
+
         return $this->pdo->query($queryString)->fetchAll();
     }
 
@@ -29,7 +35,6 @@ class Work
         $this->workId = $work['id'];
 
         $photos = $this->getPhotos();
-
         $work += ['photos' => $photos];
 
         return $work;

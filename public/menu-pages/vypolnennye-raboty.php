@@ -14,7 +14,7 @@ require_once '../include/footer.php';
 
 ?>
 
-<script src="/public/js/ajax.js"></script>
+<script src="/public/js/get-more-works.js"></script>
 
 </body>
 </html>

@@ -6,32 +6,37 @@ $configDb = require_once 'database/configDb.php';
 
 $connectDb = new ConnectDb($configDb);
 $pdo = $connectDb->getPDO();
-
 $work = new Work($pdo);
 
-$queryString = 'SELECT `id`,`heading`,`description`,`page_name`,`number_views`,`create_date`,
-                (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 
-                AS `photo_name` FROM `completed_works` `cw`';
-
 $articleId = basename($_SERVER['REQUEST_URI']);
-$articleLimit = 5;
+$articlesLimit = 5;
 
+/* Если в адресной строке есть id статьи с которой пользователь вернулся по кнопке (вернутся назад)
+то вычисляю по этому id какой сейчас номер страницы, каждые 5 статей в разделе выполненные работы
+считается как одна страница, тоесть если на странице например 15 статей то это уже 3 страницы */
 if (is_numeric($articleId)){
-    //Запрос на выборку всех статей <= пришедшего id статьи в $articleId, и по одному фото для каждой статьи
-    $queryString .= ($articleId <= $articleLimit) ? " LIMIT $articleLimit" : " WHERE `cw`.`id` <= $articleId";
+
+    if ($articleId % $articlesLimit === 0){
+        $pageNumber = (int)($articleId / $articlesLimit);
+    } else{
+        $pageNumber = (int)($articleId / $articlesLimit + 1);
+    }
+
+    $articlesCount = $pageNumber * $articlesLimit;
+    $sqlCondition = "LIMIT $articlesCount";
+
 } else{
     //Запрос на выборку первых 5 статей о выполненных работах и по одному фото для каждой статьи
-    $queryString .= " LIMIT $articleLimit";
+    $sqlCondition = "LIMIT $articlesLimit";
 }
 
-$works = $work->getAllWorks($queryString);
-
+$works = $work->getAllWorks($sqlCondition);
 $mainHeading = false;
 
 $html = '<main>
             <div class="pipe-vertical-left"></div>
             <div class="pipe-vertical-right"></div>
-            <section>';
+            <section><div class="articles">';
 
 //Собирает html с короткими статьями о работах для страницы Выполненные работы
 foreach($works as $work){
@@ -46,21 +51,23 @@ foreach($works as $work){
     $imgTitle = stristr($work['photo_name'], '.', true);
 
     $html .= "<article class='container-article'>
-                        <div class='article-info'>
-                            <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
-                            <span>Просмотры: {$work['number_views']}</span>
-                        </div>
-                        <img src='/public/images/types-works/{$work['photo_name']}'
-                             alt='$imgTitle' title='$imgTitle'>
-                        <h3>{$work['heading']}</h3>
-                        <p>{$work['description']}</p>
-                        <hr style='margin-bottom: 30px'>
-                        <a class='detail' href='/vypolnennye-raboty/{$work['page_name']}'>Подробнее</a>
-                    </article>
-                 </div>
+                  <div class='article-info'>
+                      <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
+                      <span>Просмотры: {$work['number_views']}</span>
+                  </div>
+                  <img src='/public/images/types-works/{$work['photo_name']}'
+                       alt='$imgTitle' title='$imgTitle'>
+                  <h3>{$work['heading']}</h3>
+                  <p>{$work['description']}</p>
+                  <hr style='margin-bottom: 30px'>
+                  <a class='detail' href='/vypolnennye-raboty/{$work['page_name']}'>Подробнее</a>
+              </article>
+              </div>
               </div>";
 }
 
-$html .= '</section></main>';
+$html .= '</div><div class="container-center">
+             <button class="more-works">Показать больше работ</button>
+          </div></section></main>';
 
 echo $html;

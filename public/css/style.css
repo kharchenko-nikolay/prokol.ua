@@ -568,6 +568,19 @@ td{
     color: darkslategray;
 }
 
+.more-works{
+    /*background: linear-gradient(red, #744949);*/
+    background: linear-gradient(red, #842525);
+    color: white;
+    font-family: sans-serif;
+    padding: 0 20px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
 
 /* Для экранов <= 1820 пикселей */
