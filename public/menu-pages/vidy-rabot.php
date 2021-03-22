@@ -20,7 +20,7 @@
                 <h2 class="main-heading">Виды выполняемых работ</h2>
                 <hr>
                 <article class="container-article">
-                    <img src="public/images/types-works/vodoprovod-v-dome.jpg"
+                    <img src="/public/images/types-works/vodoprovod-v-dome.jpg"
                          alt="Водопровод в частном доме" title="Водопровод в доме">
                     <h3>Водопровод в частном доме</h3>
                     <p>Меняем трубы водопровода в частном секторе, меняем от центрального колодца где
@@ -33,7 +33,7 @@
         <div class="container-section" id="kanalizaciya">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/kanalizaciya.jpg"
+                    <img src="/public/images/types-works/kanalizaciya.jpg"
                          alt="Монтаж канализации" title="Канализация">
                     <h3>Монтаж канализации</h3>
                     <p>Прокладываем наружную канализацию, производим монтаж канализационных узлов,
@@ -47,7 +47,7 @@
         <div class="container-section" id="montag-trub">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/montag-vodoprovoda.jpg"
+                    <img src="/public/images/types-works/montag-vodoprovoda.jpg"
                          alt="Монтаж водопровода" title="Монтаж водопровода">
                     <h3>Монтаж водопровода</h3>
                     <p>Прокладываем трубы наружного водопровода по траншеям, собираем водопроводные узлы,
@@ -60,7 +60,7 @@
         <div class="container-section" id="vrezki">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/vrezka.jpg"
+                    <img src="/public/images/types-works/vrezka.jpg"
                          alt="Врезка в водопровод" title="Врезка в водопровод">
                     <h3>Врезка в трубу под давлением</h3>
                     <p>Делаем врезки в центральный водопровод под давлением, в любые диаметры труб,
@@ -73,7 +73,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/poliv.jpg"
+                    <img src="/public/images/types-works/poliv.jpg"
                          alt="Монтаж капельного полива" title="Монтаж капельного полива">
                     <h3>Монтаж капельного полива</h3>
                     <p>Производим монтаж труб системы полива сада, огорода, полисадника.</p>
@@ -85,7 +85,7 @@
         <div class="container-section" id="prokol">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/prokol.jpg"
+                    <img src="/public/images/types-works/prokol.jpg"
                          alt="Бестраншейная прокладка труб" title="Прокол грунта">
                     <h3>Прокол под дорогой</h3>
                     <p>Делаем проколы грунта под дорогами, под забором, под облагороженным двором и т.д.,
@@ -100,7 +100,7 @@
         <div class="container-section" id="sanaciya">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/sanaciya.jpg"
+                    <img src="/public/images/types-works/sanaciya.jpg"
                          alt="Санация трубопроводов" title="Санация трубопроводов">
                     <h3>Санация трубопроводов, протяжка трубы в трубу</h3>
                     <p>Санация трубопроводов, простыми словами пропихиваем новую трубу внутрь старой,
@@ -114,7 +114,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/zadvigka.png"
+                    <img src="/public/images/types-works/zadvigka.png"
                          alt="Замена задвижки" title="Замена задвижек">
                     <h3>Монтаж завижек, замена задвижки</h3>
                     <p>Производим замену водопроводных задвижек различных диаметров,
@@ -127,7 +127,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/zamena-krana.jpg"
+                    <img src="/public/images/types-works/zamena-krana.jpg"
                          alt="Замена крана под давлением" title="Замена крана под давлением">
                     <h3>Замена крана под давлением</h3>
                     <p>Меняем краны под давлением, если кран на врезке очень старый и не работает,
@@ -141,7 +141,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="public/images/types-works/kolodec.jpg"
+                    <img src="/public/images/types-works/kolodec.jpg"
                          alt="Строительство колодцев" title="Стройка колодцев">
                     <h3>Строительство колодцев</h3>
                     <p>Строим водопроводные и канализационные колодцы, из колец или кирпича,

@@ -179,6 +179,7 @@
 
 <?php require_once 'public/include/footer.php'; ?>
 
+<script src="/public/js/not-save-img.js"></script>
 <script src="public/js/carousel.js"></script>
 
 </body>

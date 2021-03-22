@@ -16,3 +16,5 @@
     </div>
     <span>Copyright &copy; <?= date('Y') ?></span>
 </footer>
+
+<script src="/public/js/not-save-img.js"></script>
