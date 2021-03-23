@@ -20,7 +20,7 @@
             <div class="flex-container">
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/prokol.jpg"
+                    <img src="public/images/types-works/prokol.jpg"
                          alt="Прокол под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
                     <div>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/montag-vodoprovoda.jpg"
+                    <img src="public/images/types-works/montag-vodoprovoda.jpg"
                          alt="Монтаж водопровода"
                          title="Монтаж водопровода">
                     <div>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/vodoprovod-v-dome.jpg"
+                    <img src="public/images/types-works/vodoprovod-v-dome.jpg"
                          alt="Водопровод в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
                     <div>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/kanalizaciya.jpg"
+                    <img src="public/images/types-works/kanalizaciya.jpg"
                          alt="Монтаж канализации"
                          title="Монтаж канализации">
                     <div>
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/vrezka.jpg"
+                    <img src="public/images/types-works/vrezka.jpg"
                          alt="Врезка в водопровод"
                          title="Врезка в водопровод">
                     <div>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works-mini/sanaciya.jpg"
+                    <img src="public/images/types-works/sanaciya.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
                     <div>

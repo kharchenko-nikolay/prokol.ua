@@ -345,7 +345,7 @@ div.carousel-images{
 
 .carousel-images > img{
     object-fit: cover;
-    width: 80%;
+    width: 70%;
     height: 600px;
     border-radius: 5px;
     animation-name: carousel;
@@ -710,7 +710,7 @@ td{
     .sun-img{
         width: 6% !important;
         left: 78% !important;
-        top: 3%;
+        top: 2% !important;
     }
 
     .menu > li > a{
@@ -795,5 +795,9 @@ td{
 
     .wrapper-advantage{
         height: 400px;
+    }
+
+    .wrapper-type-work {
+        height: 370px !important;
     }
 }
