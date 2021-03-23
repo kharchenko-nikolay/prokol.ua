@@ -95,6 +95,19 @@ hr{
     margin: 0;
 }
 
+/*.modal{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    z-index: 999;*/
+/*    background: rgba(0,0,0,0.7);*/
+/*}*/
+
 /* ========================== СТИЛИ ДЛЯ ШАПКИ САЙТА==========================*/
 
 header{
@@ -680,7 +693,7 @@ td{
     /*====== СТИЛИ ДЛЯ ШАПКИ ======*/
 
     img[alt="header"]{
-        content: url("../images/header-mini.jpeg");
+        content: url("../images/header-mini.jpg");
     }
 
     .messengers-header,

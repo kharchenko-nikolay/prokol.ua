@@ -1,4 +1,4 @@
-    <link rel="icon" href="/public/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/public/css/style.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>

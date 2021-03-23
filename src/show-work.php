@@ -1,9 +1,9 @@
 <?php
 
-require_once 'include/header-part-one.php';
-require_once '../src/database/ConnectDb.php';
-require_once '../src/database/Work.php';
-$configDb = require_once '../src/database/configDb.php';
+require_once '../public/include/header-part-one.php';
+require_once 'database/ConnectDb.php';
+require_once 'database/Work.php';
+$configDb = require_once 'database/configDb.php';
 
 $connectDb = new ConnectDb($configDb);
 $pdo = $connectDb->getPDO();
@@ -19,7 +19,7 @@ $workData = $work->getWork($pageName);
     <meta name="description" content="Монтаж водопровода. Прокол под дорогой. <?= $workData['heading'] ?>">
     <meta name="keywords" content="монтаж водопровода, монтаж канализации, прокол под дорогой, врезка в водопровод">
 
-<?php require_once 'include/header-part-two.php'; ?>
+<?php require_once '../public/include/header-part-two.php'; ?>
 
 <main>
     <div class="pipe-vertical-left"></div>
@@ -61,7 +61,7 @@ $workData = $work->getWork($pageName);
 
 //Увеличиваю количество просмотров статьи на +1 просмотр, запись в базу данных
 $work->incrementNumberViews((int)$workData['number_views']);
-require_once 'include/footer.php';
+require_once '../public/include/footer.php';
 
 ?>
 

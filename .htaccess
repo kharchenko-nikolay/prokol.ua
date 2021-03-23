@@ -8,4 +8,4 @@ RewriteRule ^([a-z]+-?[a-z]+)$ /public/menu-pages/$1.php [NC,L]
 
 RewriteRule ^vypolnennye-raboty(/[0-9]+)?$ /public/menu-pages/vypolnennye-raboty.php [NC,L]
 
-RewriteRule ^vypolnennye-raboty/[a-z0-9]+((-[a-z0-9]+)+)?$ /public/show-work.php [NC,L]
+RewriteRule ^vypolnennye-raboty/[a-z0-9]+((-[a-z0-9]+)+)?$ /src/show-work.php [NC,L]

@@ -4,7 +4,7 @@
     <meta name="description" content="Виды выполняемых услуг. Водопровод и Канализация.
     Прокол под дорогой. Врезка в водопровод. Укладка труб в траншею. Звоните (063) 636-42-60">
     <meta name="keywords" content="прокол под дорогой, водопровод в частном доме, канализация,
-    водопровод, врезка, монтаж полива, санация, замена задвижек, замена крана>
+    водопровод, врезка, монтаж полива, санация, замена задвижек, замена крана">
 
 <?php require_once '../include/header-part-two.php'; ?>
 
@@ -70,18 +70,6 @@
             </div>
         </div>
 
-        <div class="container-section">
-            <div class="container-center">
-                <article class="container-article">
-                    <img src="/public/images/types-works/poliv.jpg"
-                         alt="Монтаж капельного полива" title="Монтаж капельного полива">
-                    <h3>Монтаж капельного полива</h3>
-                    <p>Производим монтаж труб системы полива сада, огорода, полисадника.</p>
-                    <hr>
-                </article>
-            </div>
-        </div>
-
         <div class="container-section" id="prokol">
             <div class="container-center">
                 <article class="container-article">
@@ -92,6 +80,19 @@
                         для протяжки труб или кабелей под землей дабы не разрушать поверхность,
                         не перекапывать например весь двор или улицу.
                         Проколы делаем методом промывки грунта водой под давлением.</p>
+                    <hr>
+                </article>
+            </div>
+        </div>
+
+        <div class="container-section">
+            <div class="container-center">
+                <article class="container-article">
+                    <img src="/public/images/types-works/zamena-trub.jpg"
+                         alt="" title="">
+                    <h3>Замена труб в подвале</h3>
+                    <p>Меняем трубы водопровода и канализации в подвалах многоэтажных домов,
+                        также меняем водопроводные задвижки, за стояки не беремся.</p>
                     <hr>
                 </article>
             </div>
@@ -114,7 +115,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="/public/images/types-works/zadvigka.png"
+                    <img src="/public/images/types-works/zadvigka.jpg"
                          alt="Замена задвижки" title="Замена задвижек">
                     <h3>Монтаж завижек, замена задвижки</h3>
                     <p>Производим замену водопроводных задвижек различных диаметров,
@@ -146,6 +147,18 @@
                     <h3>Строительство колодцев</h3>
                     <p>Строим водопроводные и канализационные колодцы, из колец или кирпича,
                         также строим выгребные ямы, возможна установка септиков.</p>
+                    <hr>
+                </article>
+            </div>
+        </div>
+
+        <div class="container-section">
+            <div class="container-center">
+                <article class="container-article">
+                    <img src="/public/images/types-works/poliv.jpg"
+                         alt="Монтаж капельного полива" title="Монтаж капельного полива">
+                    <h3>Монтаж капельного полива</h3>
+                    <p>Производим монтаж труб системы полива сада, огорода, полисадника.</p>
                     <hr>
                 </article>
             </div>
