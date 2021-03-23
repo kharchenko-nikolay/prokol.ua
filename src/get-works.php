@@ -49,16 +49,17 @@ foreach($works as $work){
     }
 
     $imgTitle = stristr($work['photo_name'], '.', true);
+    $shortDescription = mb_substr($work['description'], 0, 170);
 
     $html .= "<article class='container-article'>
                   <div class='article-info'>
                       <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
                       <span>Просмотры: {$work['number_views']}</span>
                   </div>
-                  <img src='/public/images/types-works/{$work['photo_name']}'
+                  <img src='/public/images/photo-works/{$work['photo_name']}'
                        alt='$imgTitle' title='$imgTitle'>
                   <h3>{$work['heading']}</h3>
-                  <p>{$work['description']}</p>
+                  <p>$shortDescription ...</p>
                   <hr style='margin-bottom: 30px'>
                   <a class='detail' href='/vypolnennye-raboty/{$work['page_name']}'>Подробнее</a>
               </article>

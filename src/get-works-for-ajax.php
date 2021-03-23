@@ -31,7 +31,7 @@ if(!empty($works)){
                           <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
                           <span>Просмотры: {$work['number_views']}</span>
                       </div>
-                      <img src='/public/images/types-works/{$work['photo_name']}'
+                      <img src='/public/images/photo-works/{$work['photo_name']}'
                            alt='$imgTitle' title='$imgTitle'>
                       <h3>{$work['heading']}</h3>
                       <p>{$work['description']}</p>

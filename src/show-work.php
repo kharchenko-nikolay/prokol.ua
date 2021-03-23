@@ -42,7 +42,7 @@ $workData = $work->getWork($pageName);
 
                         $imgTitle = stristr($photo['photo_name'], '.', true);
 
-                        echo "<img src='/public/images/types-works/{$photo['photo_name']}'
+                        echo "<img src='/public/images/photo-works/{$photo['photo_name']}'
                                    alt='$imgTitle' title='$imgTitle' style='margin-bottom: 15px'>";
                     }
                     ?>
