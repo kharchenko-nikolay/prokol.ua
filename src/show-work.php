@@ -16,7 +16,9 @@ $workData = $work->getWork($pageName);
 ?>
 
     <title><?= $workData['heading'] ?></title>
-    <meta name="description" content="Монтаж водопровода. Прокол под дорогой. <?= $workData['heading'] ?>">
+    <meta name="description"
+          content="Монтаж водопровода. Прокол под дорогой.
+          Врезка в водопровод. Бесплатный выезд мастера. <?= $workData['heading'] ?>">
     <meta name="keywords" content="монтаж водопровода, монтаж канализации, прокол под дорогой, врезка в водопровод">
 
 <?php require_once '../public/include/header-part-two.php'; ?>
