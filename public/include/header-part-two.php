@@ -37,7 +37,7 @@
         </div>
         <div class="phone">
             <img src="/public/images/telecom-operators/vodafone.png" alt="Водафон" title="Водафон">
-            <a href="tel:+380636364260" title="vodafone">050 50 87 122</a>
+            <a href="tel:+380509882256" title="vodafone">050 98 82 256</a>
         </div>
         <button class="btn-call-order">Заказать звонок</button>
     </div>

@@ -5,11 +5,13 @@
 @font-face {
     font-family: "Cuprum";
     src: url("../fonts/Cuprum-VariableFont_wght.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Cuprum-Italic";
     src: url("../fonts/Cuprum-Italic-VariableFont_wght.ttf");
+    font-display: swap;
 }
 
 body{
@@ -591,6 +593,14 @@ td{
     outline: none;
     font-weight: bold;
     font-size: 18px;
+}
+
+.more-works:hover{
+    background: #3b3b3b;
+}
+
+.more-works:active{
+    background: linear-gradient(red, #842525);
 }
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/

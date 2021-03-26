@@ -11,7 +11,7 @@
         </div>
         <div class="phone">
             <img src="/public/images/telecom-operators/vodafone.png" alt="Водафон" title="Водафон">
-            <a href="tel:+380636364260" title="Водафон">050 50 87 122</a>
+            <a href="tel:+380509882256" title="Водафон">050 98 82 256</a>
         </div>
     </div>
     <span>Copyright &copy; <?= date('Y') ?></span>

@@ -18,15 +18,15 @@
                 <address>г. Днепр и область</address>
                 <div>
                     <img src="public/images/telecom-operators/lifecell.png" alt="Лайф" title="Лайф">
-                    <a href="tel:+380636364260">063 636 4260</a>
+                    <a href="tel:+380636364260">063 63 64 260</a>
                 </div>
                 <div>
                     <img src="public/images/telecom-operators/kievstar.png" alt="Киевстар" title="Киевстар">
-                    <a href="tel:+380636364260">067 504 4292</a>
+                    <a href="tel:+380979728176">097 97 28 176</a>
                 </div>
                 <div>
                     <img src="public/images/telecom-operators/vodafone.png" alt="Водафон" title="Водафон">
-                    <a href="tel:+380636364260">050 684 4905</a>
+                    <a href="tel:+380509882256">050 98 82 256</a>
                 </div>
             </div>
 
