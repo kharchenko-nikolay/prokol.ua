@@ -810,4 +810,12 @@ td{
     .wrapper-type-work {
         height: 370px !important;
     }
+
+    .more-works:hover{
+        background: linear-gradient(red, #842525);
+    }
+
+    .more-works:active{
+        background: #3b3b3b;
+    }
 }
