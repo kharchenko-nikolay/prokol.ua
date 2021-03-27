@@ -15,7 +15,7 @@ $workData = $work->getWork($pageName);
 
 ?>
 
-    <title><?= $workData['heading'] . ' в Днепре'?></title>
+    <title>💧<?= $workData['heading']?> в Днепре💧</title>
     <meta name="description"
           content="Монтаж водопровода. Прокол под дорогой.
           Врезка в водопровод. Бесплатный выезд мастера. <?= $workData['heading'] ?>">
