@@ -9,9 +9,10 @@
     <div id="form">
         <img src="/public/images/close.png" id="close-icon" alt="Закрыть форму">
         <span class="message">Мы вам перезвоним!</span>
+        <span class="error-message">Заполните все поля</span>
         <form>
             <input type="text" name="name" placeholder="Введите ваше имя">
-            <input type="text" name="phone-number" placeholder="Введите ваш номер">
+            <input type="number" name="phone-number" placeholder="Введите ваш номер">
             <input type="button" name="btnSubmit" value="Отправить">
         </form>
     </div>

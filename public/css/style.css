@@ -627,6 +627,13 @@ div#form{
     font-family: Cuprum, sans-serif;
 }
 
+.error-message{
+    color: red;
+    display: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
 #close-icon{
     position: absolute;
     right: 15px;
@@ -667,6 +674,18 @@ input[name="btnSubmit"], #button-close{
 
 input:focus{
     box-shadow: 0 0 5px dimgray;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
