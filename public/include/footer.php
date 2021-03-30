@@ -18,3 +18,4 @@
 </footer>
 
 <script src="/public/js/not-save-img.js"></script>
+<script src="/public/js/call-order.js"></script>

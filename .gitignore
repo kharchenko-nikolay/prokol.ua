@@ -1,2 +1,4 @@
 .idea/
+
 /src/database/configDb.php
+/src/configTelegram.php

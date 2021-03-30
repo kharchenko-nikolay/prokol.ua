@@ -5,6 +5,18 @@
 
 <body>
 
+<div id="modal">
+    <div id="form">
+        <img src="/public/images/close.png" id="close-icon" alt="Закрыть форму">
+        <span class="message">Мы вам перезвоним!</span>
+        <form>
+            <input type="text" name="name" placeholder="Введите ваше имя">
+            <input type="text" name="phone-number" placeholder="Введите ваш номер">
+            <input type="button" name="btnSubmit" value="Отправить">
+        </form>
+    </div>
+</div>
+
 <header>
     <img src="/public/images/header.jpg" alt="header">
     <img class="sun-img" src="/public/images/sun.png" alt="sun">
@@ -39,7 +51,7 @@
             <img src="/public/images/telecom-operators/vodafone.png" alt="Водафон" title="Водафон">
             <a href="tel:+380509882256" title="vodafone">050 98 82 256</a>
         </div>
-        <button class="btn-call-order">Заказать звонок</button>
+        <button id="btn-call-order">Заказать звонок</button>
     </div>
 
     <nav class="main-menu">

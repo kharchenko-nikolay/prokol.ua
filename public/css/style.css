@@ -97,19 +97,6 @@ hr{
     margin: 0;
 }
 
-/*.modal{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    z-index: 999;*/
-/*    background: rgba(0,0,0,0.7);*/
-/*}*/
-
 /* ========================== СТИЛИ ДЛЯ ШАПКИ САЙТА==========================*/
 
 header{
@@ -156,7 +143,7 @@ div.phones{
     align-items: center;
 }
 
-button.btn-call-order{
+#btn-call-order{
     height: 1.4vw;
     background-color: #fc2424;
     border-radius: 4px;
@@ -169,15 +156,15 @@ button.btn-call-order{
     color: whitesmoke;
 }
 
-.btn-call-order:hover{
+#btn-call-order:hover{
     background-color: green;
 }
 
-.btn-call-order:active{
+#btn-call-order:active{
     background-color: red;
 }
 
-.btn-call-order:focus{
+#btn-call-order:focus{
     outline: none;
 }
 
@@ -601,6 +588,85 @@ td{
 
 .more-works:active{
     background: linear-gradient(red, #842525);
+}
+
+/* ========================== СТИЛИ ДЛЯ МОДАЛЬНОГО ОКНА ЗАКАЗАТЬ ЗВОНОК ==========================*/
+
+#modal{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+div#form{
+    width: 500px;
+    height: 240px;
+    background: linear-gradient(#f8d8b2, #da9e2b);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 99;
+}
+
+.message{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,.8);
+    font-family: Cuprum, sans-serif;
+}
+
+#close-icon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 25px;
+}
+
+#close-icon:hover{
+    width: 30px;
+    box-shadow: 0 0 5px black;
+    border-radius: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+input, #button-close{
+    width: 70%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid steelblue;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input[name="btnSubmit"], #button-close{
+    background: steelblue;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+input:focus{
+    box-shadow: 0 0 5px dimgray;
 }
 
 /* ========================== СТИЛИ ДЛЯ МЕНЬШИХ РАСШИРЕНИЙ ЭКРАНОВ ==========================*/
