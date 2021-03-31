@@ -8,6 +8,9 @@
 
 <?php
 
+if(is_numeric(basename($_SERVER['REQUEST_URI'])))
+    echo '<meta name="robots" content="noindex, nofollow">';
+
 require_once '../include/header-part-two.php';
 require_once '../../src/get-works.php';
 require_once '../include/footer.php';
