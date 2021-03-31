@@ -20,7 +20,7 @@
             <div class="flex-container">
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works/prokol.jpg"
+                    <img src="public/images/types-works/prokol-pod-dorogoy.jpg"
                          alt="Прокол под дорогой, прокол под землей"
                          title="Прокол под дорогой для протяжки труб">
                     <div>
@@ -35,14 +35,14 @@
                          alt="Монтаж водопровода"
                          title="Монтаж водопровода">
                     <div>
-                        <a href="vidy-rabot#montag-trub">
+                        <a href="vidy-rabot#vodoprovod">
                             <h3>Монтаж водопровода</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works/vodoprovod-v-dome.jpg"
+                    <img src="public/images/types-works/vodoprovod-v-chastnom-dome.jpg"
                          alt="Водопровод в частном доме и подвалах многоэтажек"
                          title="Замена старых труб на новые">
                     <div>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works/kanalizaciya.jpg"
+                    <img src="public/images/types-works/montazh-kanalizacii.jpg"
                          alt="Монтаж канализации"
                          title="Монтаж канализации">
                     <div>
@@ -64,18 +64,18 @@
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works/vrezka.jpg"
+                    <img src="public/images/types-works/vrezka-v-vodoprovod.jpg"
                          alt="Врезка в водопровод"
                          title="Врезка в водопровод">
                     <div>
-                        <a href="vidy-rabot#vrezki">
+                        <a href="vidy-rabot#vrezka">
                             <h3>Врезка в трубу под давлением</h3>
                         </a>
                     </div>
                 </div>
 
                 <div class="wrapper-type-work">
-                    <img src="public/images/types-works/sanaciya.jpg"
+                    <img src="public/images/types-works/sanaciya-truboprovoda.jpg"
                          alt="Санация трубопроводов, протяжка трубы в трубу"
                          title="Протяжка трубы в трубу">
                     <div>
