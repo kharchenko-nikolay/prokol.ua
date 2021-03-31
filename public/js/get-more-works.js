@@ -46,6 +46,8 @@ window.onload = (function (){
                 if (works !== null){
                     let articles = document.querySelector('.articles');
                     articles.insertAdjacentHTML("beforeend", works);
+                } else{
+                    document.querySelector('.no-works-message').style.display = 'block';
                 }
             }
         }

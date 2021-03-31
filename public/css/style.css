@@ -634,6 +634,14 @@ div#form{
     font-size: 18px;
 }
 
+.no-works-message{
+    display: none;
+    font-family: Cuprum, sans-serif;
+    margin-top: 25px;
+    font-size: 20px;
+    color: red;
+}
+
 #close-icon{
     position: absolute;
     right: 15px;

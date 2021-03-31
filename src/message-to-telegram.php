@@ -30,4 +30,3 @@ function messageToTelegram($config, $message)
 
     curl_exec($ch);
 }
-

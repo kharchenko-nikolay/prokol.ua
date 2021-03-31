@@ -69,6 +69,7 @@ foreach($works as $work){
 
 $html .= '</div><div class="container-center">
              <button class="more-works">Показать больше работ</button>
+             <span class="no-works-message">Извините на данный момент больше нет работ!</span>
           </div></section></main>';
 
 echo $html;
