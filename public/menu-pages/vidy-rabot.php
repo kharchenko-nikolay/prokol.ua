@@ -128,6 +128,18 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
+                    <img src="/public/images/types-works/almaznoe-burenie-otverstiy.jpg"
+                         alt="Алмазное бурение отверстий" title="Алмазное бурение">
+                    <h3>Алмазное бурение отверстий</h3>
+                    <p>Производим алмазное бурение отверстий в бетоне &#8960; до 200 и длинной до метра</p>
+                    <hr>
+                </article>
+            </div>
+        </div>
+
+        <div class="container-section">
+            <div class="container-center">
+                <article class="container-article">
                     <img src="/public/images/types-works/zamena-krana-pod-davleniem.jpg"
                          alt="Замена крана под давлением" title="Замена крана под давлением">
                     <h3>Замена крана под давлением</h3>

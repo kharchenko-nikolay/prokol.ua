@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: *
 
 Host: https://prokol.net
 Sitemap: https://prokol.net/sitemap.xml
