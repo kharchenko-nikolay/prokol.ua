@@ -795,7 +795,7 @@ input[type=number] {
     /*====== СТИЛИ ДЛЯ ШАПКИ ======*/
 
     img[alt="header"]{
-        content: url("../images/header-mini.jpg");
+        content: url("/public/images/header-mini.jpg");
     }
 
     .messengers-header,
