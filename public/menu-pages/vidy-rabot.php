@@ -5,8 +5,6 @@
     Прокол под дорогой. Врезка в водопровод. Укладка труб в траншею. Звоните! ☎ (097) 972-81-76">
     <meta name="keywords" content="прокол под дорогой, водопровод в частном доме, канализация,
     водопровод, врезка, монтаж полива, санация, замена задвижек, замена крана">
-    <meta property="og:image" content="https://prokol.net/public/images/logo.jpg">
-    <meta property="og:title" content="Прокол под дорогой в Днепре. Монтаж водопровода и канализации.">
 
 <?php require_once '../include/header-part-two.php'; ?>
 

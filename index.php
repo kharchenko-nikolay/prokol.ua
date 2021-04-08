@@ -5,8 +5,6 @@
     Врезка в трубу под давлением. Бесплатный выезд мастера. Звоните! ☎ (097) 972-81-76">
     <meta name="keywords" content="прокол под дорогой, укладка труб в траншею цена, врезка в водопровод,
     монтаж водопровода, канализация">
-    <meta property="og:image" content="https://prokol.net/public/images/logo.jpg">
-    <meta property="og:title" content="Прокол под дорогой в Днепре. Монтаж водопровода и канализации.">
 
 <?php require_once 'public/include/header-part-two.php'; ?>
 

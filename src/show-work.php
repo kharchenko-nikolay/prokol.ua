@@ -20,8 +20,6 @@ $workData = $work->getWork($pageName);
           content="Монтаж водопровода. Прокол под дорогой.
           Врезка в водопровод. Бесплатный выезд мастера. <?= $workData['heading'] ?>">
     <meta name="keywords" content="монтаж водопровода, монтаж канализации, прокол под дорогой, врезка в водопровод">
-    <meta property="og:image" content="https://prokol.net/public/images/logo.jpg">
-    <meta property="og:title" content="Прокол под дорогой в Днепре. Монтаж водопровода и канализации.">
 
 <?php require_once '../public/include/header-part-two.php'; ?>
 

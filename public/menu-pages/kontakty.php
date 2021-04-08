@@ -4,8 +4,6 @@
     <meta name="description" content="Хотите заказать услугу прокола под дорогой,
     монтаж водопровода или канализации, врезку в водопровод. Звоните! ☎ (097) 972-81-76">
     <meta name="keywords" content="прокол под землей, водопровод, канализация, монтаж труб">
-    <meta property="og:image" content="https://prokol.net/public/images/logo.jpg">
-    <meta property="og:title" content="Прокол под дорогой в Днепре. Монтаж водопровода и канализации.">
 
 <?php require_once '../include/header-part-two.php'; ?>
 
