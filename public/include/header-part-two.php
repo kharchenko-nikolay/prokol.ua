@@ -1,5 +1,3 @@
-    <meta property="og:image" content="https://prokol.net/public/images/logo.jpg">
-    <meta property="og:title" content="Прокол под дорогой в Днепре. Монтаж водопровода и канализации.">
     <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/public/css/style.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -24,6 +22,7 @@
     <img src="/public/images/header.jpg" alt="header">
     <img class="sun-img" src="/public/images/sun.png" alt="sun">
 
+    <a href="tel:+380979728176" class="number-phone-logo">097 972 81 76</a>
     <a class="logo-text" href="/">
         <h1>Прокол под дорогой<br>Монтаж водопровода</h1>
     </a>

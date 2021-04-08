@@ -123,6 +123,10 @@ a.logo-text {
     color: rgba(0, 0, 0, 0.9);
 }
 
+.number-phone-logo{
+    display: none;
+}
+
 img.sun-img{
     width: 4%;
     left: 61.5%;
@@ -808,6 +812,18 @@ input[type=number] {
         text-shadow: none !important;
         font-weight: bold !important;
         color: rgba(0,0,0,.8) !important;
+    }
+
+    .number-phone-logo{
+        display: inline;
+        font-family: "Cuprum-Italic", sans-serif;
+        text-decoration: none;
+        font-size: 26px;
+        text-shadow: 1px 1px 3px dimgray;
+        position: absolute;
+        right: 8%;
+        bottom: 26%;
+        color: red;
     }
 
     .sun-img{
