@@ -1,6 +1,6 @@
 <?php
 
-$handle = opendir('public/images/types-works');
+$handle = opendir('public/images/photo-works');
 $html = '';
 
 //Собирает из папки все фотографии, для вывода на главной странице в карусели
