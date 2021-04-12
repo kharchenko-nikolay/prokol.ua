@@ -10,7 +10,7 @@ while(($imgName = readdir($handle)) !== false){
 
     $imgTitle = stristr($imgName, '.', true);
 
-    $html .= "<img src='public/images/types-works/$imgName' alt='$imgTitle' title='$imgTitle' hidden>";
+    $html .= "<img src='public/images/photo-works/$imgName' alt='$imgTitle' title='$imgTitle' hidden>";
 }
 
 closedir($handle);
