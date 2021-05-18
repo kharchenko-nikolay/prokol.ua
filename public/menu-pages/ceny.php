@@ -1,6 +1,6 @@
 <?php require_once '../include/header-part-one.php'; ?>
 
-    <title>Прокол Под Дорогой в Днепре Цена: 350-400 грн/м</title>
+    <title>Прокол Под Дорогой в Днепре Цена: 350 грн м/п</title>
     <meta name="description" content="Прокол под дорогой в Днепре и области,
     доступные цены на монтаж водопровода и канализации. Бесплатный выезд мастера. Звоните! ☎ (097) 972-81-76">
     <meta name="keywords" content="прокол под дорогой цена, укладка труб в траншею цена, врезка в водопровод цена,
@@ -105,7 +105,7 @@ $monthName = require_once '../../src/get-month-name.php';
                         Прокладка водопроводных труб по траншее (с вашей раскопкой)
                     </td>
                     <td>1 метр погонный</td>
-                    <td style="border-bottom-right-radius: 15px">150-200</td>
+                    <td style="border-bottom-right-radius: 15px">100-150</td>
                 </tr>
                 </tbody>
             </table>

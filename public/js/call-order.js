@@ -19,10 +19,8 @@ $(document).ready(() => {
         GUI.$modalWindow.css('display', 'none');
     });
 
-    /*
-    Обработчик на кнопку отправить, отправляет введенные
-    пользователем данные на сервер через ajax запрос
-     */
+    /* Обработчик на кнопку отправить, отправляет введенные
+    пользователем данные на сервер через ajax запрос */
     GUI.$btnSubmit.click(() => {
 
         let name = GUI.$name.val();
@@ -42,12 +40,10 @@ $(document).ready(() => {
                           <span class="message">Спасибо за заявку ${name}!</span>
                           <button id="button-close">Закрыть</button>`);
 
-
             //Обработчик на кнопку закрыть которая появляется после отработки ajax запроса
             $('#button-close').on('click', () => {
                 GUI.$modalWindow.css('display', 'none');
             });
         }
     });
-
 });
