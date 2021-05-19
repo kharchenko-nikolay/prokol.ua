@@ -1,17 +1,26 @@
 <?php
 
-$handle = opendir('public/images/photo-works');
+$photos = [];
+$maxCountImg = 30;
 $html = '';
 
-//Собирает из папки все фотографии, для вывода на главной странице в карусели
-while(($imgName = readdir($handle)) !== false){
-
-    if($imgName === '..' || $imgName === '.') continue;
-
-    $imgTitle = stristr($imgName, '.', true);
-
-    $html .= "<img src='public/images/photo-works/$imgName' alt='$imgTitle' title='$imgTitle' hidden>";
+//Считываю все пути фотографий в папке и добавляю в массив
+foreach (glob('public/images/photo-works/*.jpg') as $pathToPhoto){
+    $photos[] = $pathToPhoto;
 }
 
-closedir($handle);
+//Перемешиваю массив чтобы какждый раз на главной странице в карусели были разные фотографии
+shuffle($photos);
+
+if(count($photos) > $maxCountImg){
+    $photos = array_slice($photos, 0, $maxCountImg);
+}
+
+foreach ($photos as $imgPath) {
+    $imgName = substr(strrchr($imgPath, '/'), 1);
+    $imgTitle = stristr($imgName, '.', true);
+
+    $html .= "<img src='$imgPath' alt='$imgTitle' title='$imgTitle' hidden>";
+}
+
 echo $html;
