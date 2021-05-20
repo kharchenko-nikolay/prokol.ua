@@ -155,7 +155,7 @@
             <div class="container-center">
                 <article class="container-article">
                     <img src="/public/images/types-works/stroitelstvo-kolodcev.jpg"
-                         alt="Строительство колодцев" title="Стройка колодцев">
+                         alt="Строительство колодцев" title="Строительство колодцев">
                     <h3>Строительство колодцев</h3>
                     <p>Строим водопроводные и канализационные колодцы, из колец или кирпича,
                         также строим выгребные ямы, возможна установка септиков.</p>
