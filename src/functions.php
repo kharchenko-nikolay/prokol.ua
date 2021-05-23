@@ -23,11 +23,10 @@ function getArticlesCount($articleId, int $articlesLimit) : int {
 }
 
 //Собирает html с короткими статьями о работах для страницы Выполненные работы
-function collectsWorksInHtml(array $works, string $html) : string {
-
-    $mainHeading = false;
+function collectsWorksInHtml(array $works, string $html, bool $mainHeading) : string {
 
     foreach($works as $work){
+
         $html .= "<div class='container-section' id='{$work['id']}'>
                  <div class='container-center'>";
 

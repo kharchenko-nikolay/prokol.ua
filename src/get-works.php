@@ -20,7 +20,7 @@ $html = '<main>
             <div class="pipe-vertical-right"></div>
             <section><div class="articles">';
 
-$html .= collectsWorksInHtml($works, $html);
+$html .= collectsWorksInHtml($works, $html, false);
 
 $html .= '</div><div class="container-center">
              <button class="more-works">Показать больше работ</button>
