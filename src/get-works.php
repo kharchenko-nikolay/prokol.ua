@@ -2,6 +2,7 @@
 
 require_once 'database/ConnectDb.php';
 require_once 'database/Work.php';
+require_once 'functions.php';
 $configDb = require_once 'database/configDb.php';
 
 $connectDb = new ConnectDb($configDb);
@@ -10,60 +11,16 @@ $work = new Work($pdo);
 
 $articleId = basename($_SERVER['REQUEST_URI']);
 $articlesLimit = 5;
+$articlesCount = getArticlesCount($articleId, $articlesLimit);
 
-/* Если в адресной строке есть id статьи с которой пользователь вернулся по кнопке (вернутся назад)
-то вычисляю по этому id какой сейчас номер страницы, каждые 5 статей в разделе выполненные работы
-считается как одна страница, тоесть если на странице например 15 статей то это уже 3 страницы */
-if (is_numeric($articleId)){
-
-    if ($articleId % $articlesLimit === 0){
-        $pageNumber = ($articleId / $articlesLimit);
-    } else{
-        $pageNumber = ($articleId / $articlesLimit + 1);
-    }
-
-    $articlesCount = $pageNumber * $articlesLimit;
-
-} else{
-    $articlesCount = $articlesLimit;
-}
-
-$works = $work->getAllWorks("LIMIT $articlesCount");
-$mainHeading = false;
+$works = $work->getWorks("LIMIT $articlesCount");
 
 $html = '<main>
             <div class="pipe-vertical-left"></div>
             <div class="pipe-vertical-right"></div>
             <section><div class="articles">';
 
-//Собирает html с короткими статьями о работах для страницы Выполненные работы
-foreach($works as $work){
-    $html .= "<div class='container-section' id='{$work['id']}'>
-                 <div class='container-center'>";
-
-    if($mainHeading === false){
-        $html .= '<hr><h2 class="main-heading">Выполненные работы</h2><hr>';
-        $mainHeading = true;
-    }
-
-    $imgTitle = stristr($work['photo_name'], '.', true);
-    $shortDescription = mb_substr($work['description'], 0, 170);
-
-    $html .= "<article class='container-article'>
-                  <div class='article-info'>
-                      <time datetime='{$work['create_date']}'>Дата: {$work['create_date']}</time>
-                      <span>Просмотры: {$work['number_views']}</span>
-                  </div>
-                  <img src='/public/images/photo-works/{$work['photo_name']}'
-                       alt='$imgTitle' title='$imgTitle'>
-                  <h3>{$work['heading']}</h3>
-                  <p>$shortDescription ...</p>
-                  <hr style='margin-bottom: 30px'>
-                  <a class='detail' href='/vypolnennye-raboty/{$work['page_name']}'>Подробнее</a>
-              </article>
-              </div>
-              </div>";
-}
+$html .= collectsWorksInHtml($works, $html);
 
 $html .= '</div><div class="container-center">
              <button class="more-works">Показать больше работ</button>

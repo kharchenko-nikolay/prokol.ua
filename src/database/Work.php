@@ -11,7 +11,7 @@ class Work
     }
 
     //Возвращает массив работ, выборку из базы данных по запросу queryString
-    public function getAllWorks(string $sqlCondition) : array
+    public function getWorks(string $sqlCondition) : array
     {
         $queryString = 'SELECT `id`,`heading`,`description`,`page_name`,`number_views`,`create_date`,
                         (SELECT `photo_name` FROM `photo_works` `pw` WHERE `cw`.`id`=`pw`.`work_id` LIMIT 1) 

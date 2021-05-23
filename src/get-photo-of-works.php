@@ -9,7 +9,7 @@ foreach (glob('public/images/photo-works/*.jpg') as $pathToPhoto){
     $photos[] = $pathToPhoto;
 }
 
-//Перемешиваю массив чтобы какждый раз на главной странице в карусели были разные фотографии
+//Перемешиваю массив чтобы каждый раз на главной странице в карусели были разные фотографии
 shuffle($photos);
 
 if(count($photos) > $maxCountImg){
