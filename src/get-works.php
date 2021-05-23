@@ -17,20 +17,18 @@ $articlesLimit = 5;
 if (is_numeric($articleId)){
 
     if ($articleId % $articlesLimit === 0){
-        $pageNumber = (int)($articleId / $articlesLimit);
+        $pageNumber = ($articleId / $articlesLimit);
     } else{
-        $pageNumber = (int)($articleId / $articlesLimit + 1);
+        $pageNumber = ($articleId / $articlesLimit + 1);
     }
 
     $articlesCount = $pageNumber * $articlesLimit;
-    $sqlCondition = "LIMIT $articlesCount";
 
 } else{
-    //Запрос на выборку первых 5 статей о выполненных работах и по одному фото для каждой статьи
-    $sqlCondition = "LIMIT $articlesLimit";
+    $articlesCount = $articlesLimit;
 }
 
-$works = $work->getAllWorks($sqlCondition);
+$works = $work->getAllWorks("LIMIT $articlesCount");
 $mainHeading = false;
 
 $html = '<main>

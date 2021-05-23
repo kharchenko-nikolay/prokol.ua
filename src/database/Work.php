@@ -25,8 +25,6 @@ class Work
     //Возвращает массив с данными об одной работе из базы данных
     public function getWork(string $pageName) : array
     {
-        $scriptName = baseName($pageName);
-
         $queryString = "SELECT `id`,`heading`,`description`,`number_views`,`create_date`
                         FROM `completed_works` WHERE `page_name` = '$pageName'";
 
@@ -50,7 +48,7 @@ class Work
     }
 
     //Добавляет в базу данных +1 просмотр
-    public function incrementNumberViews(int $numberViews) : void
+    public function incrementNumberViews($numberViews) : void
     {
         ++$numberViews;
 

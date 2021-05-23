@@ -7,7 +7,6 @@ $configDb = require_once 'database/configDb.php';
 
 $connectDb = new ConnectDb($configDb);
 $pdo = $connectDb->getPDO();
-
 $work = new Work($pdo);
 
 $pageName = basename($_SERVER["REQUEST_URI"]);
@@ -62,7 +61,7 @@ $workData = $work->getWork($pageName);
 <?php
 
 //Увеличиваю количество просмотров статьи на +1 просмотр, запись в базу данных
-$work->incrementNumberViews((int)$workData['number_views']);
+$work->incrementNumberViews($workData['number_views']);
 require_once '../public/include/footer.php';
 
 ?>

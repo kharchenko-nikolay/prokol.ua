@@ -1,4 +1,4 @@
-window.onload = (function (){
+(function (){
 
     let url = window.location.href;
     let array = url.split('/');
@@ -31,7 +31,6 @@ window.onload = (function (){
             }
 
             idCheck = true;
-
             xhr.open('GET', `/src/get-works-for-ajax.php?page=${pageNumber}`);
 
         } else{
