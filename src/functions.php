@@ -56,3 +56,25 @@ function collectsWorksInHtml(array $works, string $html, bool $mainHeading) : st
 
     return $html;
 }
+
+//Проверка авторизации
+function authorizationCheck(){
+
+    $loginConfig = require_once 'loginConfig.php';
+
+    if (!isset($_SESSION['login']) && !isset($_SESSION['password'])) {
+        header('Location: index.php');
+    } else {
+        if ($_SESSION['login'] !== $loginConfig['login'] && $_SESSION['password'] !== $loginConfig['password']) {
+            header('Location: index.php');
+        }
+    }
+}
+
+//Выводит сообщение
+function printMessage(string $message, string $redirectUrl){
+
+    echo "<div style='display: flex; align-items: center; flex-direction: column'>";
+    echo "<h1>$message</h1>";
+    echo "<a style='font-size: 20px' href='$redirectUrl'>Вернуться назад</a>";
+}

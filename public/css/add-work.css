@@ -1,0 +1,22 @@
+
+body{
+    height: 100vh;
+    background: linear-gradient(50deg, #c9c9c9 ,#505050);
+}
+
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-form{
+    width: 30%;
+}
+
+.logout{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
