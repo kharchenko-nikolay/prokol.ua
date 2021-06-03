@@ -74,7 +74,7 @@ class Work
                 $tmpName = $photos['tmp_name'][$key];
                 $name = basename($photos['name'][$key]);
 
-                move_uploaded_file($tmpName, "../public/images/tmp/$name");
+                move_uploaded_file($tmpName, "../public/images/photo-works/$name");
 
                 $queryString = "INSERT INTO `photo_works` (`id`, `photo_name`, `work_id`) 
                                        VALUES (null, '$name', '{$this->workId}')";

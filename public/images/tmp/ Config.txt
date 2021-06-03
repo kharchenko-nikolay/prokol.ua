@@ -1,6 +1,0 @@
-token: 1715314797:AAH3DQ_VNdpcpztBsUtswG2dG1KbbPqFtf0
-id: 681011467
-
-СКРИПТ ДЛЯ ТЕЛЕГРАМ
-
-https://kirkizh.ru/2018/04/telegram-php/#:~:text=Отправьте%20боту%20команду%20%2Fnewbot%2C%20затем,бот%20будет%20отправлять%20нам%20сообщения.
