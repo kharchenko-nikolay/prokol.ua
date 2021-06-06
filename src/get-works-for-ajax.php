@@ -3,10 +3,9 @@
 require_once 'database/ConnectDb.php';
 require_once 'database/Work.php';
 require_once 'functions.php';
-$configDb = require_once 'database/configDb.php';
 
-$connectDb = new ConnectDb($configDb);
-$pdo = $connectDb->getPDO();
+$connect = new ConnectDb();
+$pdo = $connect->getPDO();
 $work = new Work($pdo);
 
 $pageNumber = $_GET['page'];

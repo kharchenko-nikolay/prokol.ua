@@ -5,16 +5,15 @@ session_start();
 require_once '../src/database/ConnectDb.php';
 require_once '../src/database/Work.php';
 require_once '../src/functions.php';
-$configDb = require_once '../src/database/configDb.php';
 
 authorizationCheck();
 
 if (isset($_POST['btnSubmit'])){
 
-    $connectDb = new ConnectDb($configDb);
-    $pdo = $connectDb->getPDO();
-
+    $connect = new ConnectDb();
+    $pdo = $connect->getPDO();
     $work = new Work($pdo);
+
     $resultAddWork = $work->addWork($_POST['heading'], $_POST['description'], $_POST['pageName']);
 
     //Если работа успешно добавлена в базу данных, добавляю фотографии к ней

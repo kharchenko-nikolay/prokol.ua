@@ -1,11 +1,15 @@
 <?php
 
+$configDb = require_once 'configDb.php';
+
 class ConnectDb
 {
     private $pdo;
 
-    public function __construct(array $configDb)
+    public function __construct()
     {
+        global $configDb;
+
         $dsn = "mysql:host={$configDb['host']};dbname={$configDb['database']};charset=utf8mb4";
 
         $options = [
@@ -16,7 +20,6 @@ class ConnectDb
         $this->pdo = new PDO($dsn, $configDb['user'], $configDb['password'], $options);
     }
 
-    //Возвращает PhpDataObject соединение с базой данных
     public function getPDO() : PDO
     {
         return $this->pdo;
