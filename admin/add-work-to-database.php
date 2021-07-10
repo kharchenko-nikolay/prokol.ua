@@ -23,6 +23,9 @@ if (isset($_POST['btnSubmit'])){
 
         if($resultAddPhotos === true){
             printMessage('Работа успешно добавлена!', 'add-work.php');
+
+            //Добавлет ссылку на новую созданную статью в карту сайта sitemap.xml
+            addLinkInSitemap($_POST['pageName']);
         } else{
             printMessage('Ошибка загрузки фотографий!', 'add-work.php');
         }

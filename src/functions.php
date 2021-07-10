@@ -58,7 +58,7 @@ function collectsWorksInHtml(array $works, string $html, bool $mainHeading) : st
 }
 
 //Проверка авторизации
-function authorizationCheck(){
+function authorizationCheck() : void{
 
     $loginConfig = require_once 'loginConfig.php';
 
@@ -72,9 +72,27 @@ function authorizationCheck(){
 }
 
 //Выводит сообщение
-function printMessage(string $message, string $redirectUrl){
+function printMessage(string $message, string $redirectUrl) : void{
 
     echo "<div style='display: flex; align-items: center; flex-direction: column'>";
     echo "<h1>$message</h1>";
     echo "<a style='font-size: 20px' href='$redirectUrl'>Вернуться назад</a>";
+}
+
+//Добавлет ссылку на новую созданную статью в карту сайта sitemap.xml
+function addLinkInSitemap(string $pageName) : void{
+
+    $sitemap = file('../sitemap.xml');
+    array_pop($sitemap);
+    $date = date('Y-m-d');
+
+    $text = "<url>
+    <loc>https://prokol.net/vypolnennye-raboty/$pageName</loc>
+	<lastmod>$date</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>";
+
+    array_push($sitemap, $text);
+    file_put_contents('../sitemap.xml', $sitemap);
 }
