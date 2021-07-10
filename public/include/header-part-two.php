@@ -22,7 +22,7 @@
     <img src="/public/images/header.jpg" alt="header">
     <img class="sun-img" src="/public/images/sun.png" alt="sun">
 
-    <a href="tel:+380979728176" class="number-phone-logo">097 972 81 76</a>
+    <a href="tel:+380979728176" class="number-phone-logo">063 63 64 260</a>
     <a class="logo-text" href="/">
         <h1>Прокол под дорогой<br>Монтаж водопровода</h1>
     </a>
