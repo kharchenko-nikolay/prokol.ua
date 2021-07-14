@@ -8,9 +8,9 @@ function getArticlesCount($articleId, int $articlesLimit) : int {
     if (is_numeric($articleId)){
 
         if ($articleId % $articlesLimit === 0){
-            $pageNumber = ($articleId / $articlesLimit);
+            $pageNumber = (int)($articleId / $articlesLimit);
         } else{
-            $pageNumber = ($articleId / $articlesLimit + 1);
+            $pageNumber = (int)($articleId / $articlesLimit + 1);
         }
 
         $articlesCount = $pageNumber * $articlesLimit;
