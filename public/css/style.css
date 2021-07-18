@@ -793,6 +793,29 @@ input[type=number] {
     }
 }
 
+/* Для экранов >= 820 пикселей */
+@media screen and (min-width: 820px){
+
+    /* ========================== СТИЛИ ДЛЯ КНОПКИ ПРОКРУТКИ СТРАНИЦЫ ВВЕРХ ==========================*/
+
+    .btn-to-top{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(128, 128, 128, 0.4);
+        border-radius: 10px;
+        position: fixed;
+        right: 60px;
+        bottom: 40px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-to-top:hover{
+        background-color: rgba(57, 57, 57, 0.4);
+    }
+}
+
 /* Для экранов <= 820 пикселей */
 @media screen and (max-width: 820px){
 

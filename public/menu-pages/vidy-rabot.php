@@ -167,7 +167,12 @@
     </section>
 </main>
 
+<div class="btn-to-top">
+    <img src="/public/images/top.png" alt="button-top">
+</div>
+
 <?php require_once '../include/footer.php'; ?>
+<script src="/public/js/scroll-up.js"></script>
 
 </body>
 </html>

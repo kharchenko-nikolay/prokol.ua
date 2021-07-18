@@ -13,11 +13,18 @@ if(is_numeric(basename($_SERVER['REQUEST_URI'])))
 
 require_once '../include/header-part-two.php';
 require_once '../../src/get-works.php';
-require_once '../include/footer.php';
+?>
 
+<div class="btn-to-top">
+    <img src="/public/images/top.png" alt="button-top">
+</div>
+
+<?php
+require_once '../include/footer.php';
 ?>
 
 <script src="/public/js/get-more-works.js"></script>
+<script src="/public/js/scroll-up.js"></script>
 
 </body>
 </html>
