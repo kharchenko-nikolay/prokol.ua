@@ -2,6 +2,8 @@ $(document).ready(() => {
 
    $btnToTop = $('.btn-to-top');
    $flex = false;
+   $minScreenWidth = 820;
+   $topIndent = 400;
 
    //Обработчик на кнопку вверх, плавно прокручивает страницу вверх
    $btnToTop.click(() => {
@@ -10,7 +12,8 @@ $(document).ready(() => {
 
    //Обработчик на появление и пропадание кнопки вверх
    $(window).scroll(() => {
-      if ($(this).scrollTop() > 400){
+
+      if ($(this).scrollTop() > $topIndent && $(window).width() > $minScreenWidth){
 
          /* Чтобы картинка мельком не появлялась при загрузке страницы задаю
          видимость ей после прокрутки в 400px */
