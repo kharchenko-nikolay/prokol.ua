@@ -57,13 +57,18 @@ $workData = $work->getWork($pageName);
     </section>
 </main>
 
+<div class="btn-to-top">
+    <img src="/public/images/top.png" alt="button-top">
+</div>
+
 <?php
 
 //Увеличиваю количество просмотров статьи на +1 просмотр, запись в базу данных
 $work->incrementNumberViews($workData['number_views']);
 require_once '../public/include/footer.php';
-
 ?>
+
+<script src="/public/js/scroll-up.js"></script>
 
 </body>
 </html>
