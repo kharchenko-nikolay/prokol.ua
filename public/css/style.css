@@ -193,6 +193,10 @@ div.phone{
     top: 4%;
 }
 
+.messengers-header > a > img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
 .messengers-header > a{
     text-decoration: none;
     margin-right: 0.4vw;

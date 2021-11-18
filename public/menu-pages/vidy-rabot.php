@@ -90,7 +90,7 @@
             <div class="container-center">
                 <article class="container-article">
                     <img src="/public/images/types-works/zamena-trub-v-podvale.jpg"
-                         alt="" title="">
+                         alt="Замена труб в подвале" title="Замена труб в подвале">
                     <h3>Замена труб в подвале</h3>
                     <p>Меняем трубы водопровода и канализации в подвалах многоэтажных домов,
                         также меняем водопроводные задвижки, за стояки не беремся.</p>
@@ -116,7 +116,7 @@
         <div class="container-section">
             <div class="container-center">
                 <article class="container-article">
-                    <img src="/public/images/types-works/montazh-zadvizhek.jpg"
+                    <img src="/public/images/types-works/montazh-vodoprovodnoy-zadvizhki.jpg"
                          alt="Замена задвижки" title="Замена задвижек">
                     <h3>Монтаж задвижек, замена задвижки</h3>
                     <p>Производим замену водопроводных задвижек различных диаметров,
