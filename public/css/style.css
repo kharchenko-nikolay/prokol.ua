@@ -194,7 +194,7 @@ div.phone{
 }
 
 .messengers-header > a > img:hover{
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0 7px 5px gray;
 }
 
 .messengers-header > a{

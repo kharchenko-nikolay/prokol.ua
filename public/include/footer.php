@@ -14,7 +14,7 @@
             <a href="tel:+380509882256" title="Водафон">050 98 82 256</a>
         </div>
     </div>
-    <span>Copyright &copy; <?= date('Y') ?></span>
+    <span>Copyright &copy; 2021-<?= date('Y') ?></span>
 </footer>
 
 <script src="/public/js/not-save-img.js"></script>
