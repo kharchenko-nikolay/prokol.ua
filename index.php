@@ -184,6 +184,8 @@
 <?php require_once 'public/include/footer.php'; ?>
 
 <script src="public/js/carousel.js"></script>
+<script src="/public/js/not-save-img.js"></script>
+<script src="/public/js/call-order.js"></script>
 <script src="public/js/scroll-up.js"></script>
 
 </body>

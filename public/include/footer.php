@@ -16,6 +16,3 @@
     </div>
     <span>Copyright &copy; 2021-<?= date('Y') ?></span>
 </footer>
-
-<script src="/public/js/not-save-img.js"></script>
-<script src="/public/js/call-order.js"></script>
