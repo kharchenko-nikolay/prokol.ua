@@ -39,7 +39,7 @@ authorizationCheck();
         </div>
         <div class="mb-3">
             <label for="photos" class="form-label">Выберите фотографии</label>
-            <input type="file" name="photos[]" class="form-control" id="photos" multiple required>
+            <input type="file" name="photos[]" class="form-control" id="photos" accept="image/*" multiple required>
         </div>
         <button type="submit" name="btnSubmit" class="btn btn-primary form-control">Отправить</button>
     </form>
